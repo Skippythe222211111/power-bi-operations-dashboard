@@ -275,7 +275,7 @@ def build_model() -> None:
     })
     write_json(MODEL_DIR / "definition.pbism", {"version": "4.1", "settings": {}})
     (model_dir / "database.tmdl").write_text(
-        "database\n\tcompatibilityLevel: 1567\n", encoding="utf-8")
+        "database\n\tcompatibilityLevel: 1606\n", encoding="utf-8")
 
     (model_dir / "expressions.tmdl").write_text(
         "expression DataBase = \"" + DATA_BASE + "\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]\n"

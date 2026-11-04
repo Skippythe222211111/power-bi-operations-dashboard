@@ -1,15 +1,15 @@
 table DimState
-	lineageTag: eeaabba9-3745-479d-a059-8ae167ad6a45
+	lineageTag: c3a410e4-9dde-4fe8-85fc-13348acafdae
 
 	column state
 		dataType: string
-		lineageTag: e08db4ae-2b73-48b1-b830-4b56d2541199
+		lineageTag: 0bed9461-1ed4-4273-8331-b3e85f218319
 		summarizeBy: none
 		sourceColumn: state
 
 	column region
 		dataType: string
-		lineageTag: 00aea56a-1628-48e4-8bac-c36680f24881
+		lineageTag: d4a22318-4027-41b7-ac62-94a1bedae912
 		summarizeBy: none
 		sourceColumn: region
 

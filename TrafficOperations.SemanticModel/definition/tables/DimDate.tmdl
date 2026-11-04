@@ -1,44 +1,44 @@
 table DimDate
-	lineageTag: 92eba572-c542-4758-8a2b-97a106b20ca2
+	lineageTag: d30d03a1-3534-4875-abd2-874ebaabb557
 
 	column date
 		dataType: dateTime
 		formatString: dd.mm.yyyy
-		lineageTag: 3df65978-c86d-434b-95ed-a7eba087b2dc
+		lineageTag: db7c6414-94b3-4913-ba59-7c735c508c9e
 		summarizeBy: none
 		sourceColumn: date
 
 	column year
 		dataType: int64
 		formatString: 0
-		lineageTag: 0ef19767-c256-4373-8721-4f722443c5c0
+		lineageTag: 4ece9b36-7d04-4c3f-8da5-c655c12f4443
 		summarizeBy: none
 		sourceColumn: year
 
 	column month_number
 		dataType: int64
 		formatString: 0
-		lineageTag: 72de64f6-2a8c-43bc-93af-790958c3a580
+		lineageTag: 121a76e1-15f3-4cc2-abc3-3ef35e82fcb0
 		summarizeBy: none
 		sourceColumn: month_number
 
 	column month_name
 		dataType: string
-		lineageTag: bd9bd448-d14b-4cb9-ba31-d32b5cce2864
+		lineageTag: 4e86388f-76b8-424d-8e9d-a5f0dc2ffb90
 		summarizeBy: none
 		sortByColumn: month_number
 		sourceColumn: month_name
 
 	column month_label
 		dataType: string
-		lineageTag: a4bcc103-518f-4ed5-abd2-720dc2d3a1d6
+		lineageTag: 587d75d5-ce2c-4160-ada0-79ec76146991
 		summarizeBy: none
 		sortByColumn: date
 		sourceColumn: month_label
 
 	column quarter
 		dataType: string
-		lineageTag: a9f91a66-a481-4592-b72a-81dfe400a893
+		lineageTag: cdda71c9-06d5-4c42-aecd-9c50cb64b08a
 		summarizeBy: none
 		sourceColumn: quarter
 

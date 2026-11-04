@@ -1,92 +1,92 @@
 table VMT
-	lineageTag: 7d699fe6-1279-462d-a213-2dba3bccb6f2
+	lineageTag: ed3c5bc9-06f6-451a-a9ac-cbc26c3f718a
 
 	column month
 		dataType: dateTime
 		formatString: yyyy-mm
-		lineageTag: 805e486e-e7ba-4f58-be48-cc98870e3363
+		lineageTag: 8dde98cd-ae29-4c15-ac76-dd27ac31812b
 		summarizeBy: none
 		sourceColumn: month
 
 	column state
 		dataType: string
-		lineageTag: 0282babf-ac7a-48bb-80aa-33b4468e13eb
+		lineageTag: 7d96ed0b-f84a-466b-bf75-31accc3eab12
 		summarizeBy: none
 		sourceColumn: state
 
 	column region
 		dataType: string
-		lineageTag: d4eab2a9-083f-4283-b229-cb87aa026142
+		lineageTag: a4301cc9-7b27-4aad-b432-13e9f8f3b03d
 		summarizeBy: none
 		sourceColumn: region
 
 	column vmt_millions
 		dataType: double
 		formatString: #,0.0
-		lineageTag: 85fda9f3-4596-43a0-b5a4-ea67379bc3e5
+		lineageTag: 2618dce4-56f9-4bc9-9627-23cc04cb012a
 		summarizeBy: sum
 		sourceColumn: vmt_millions
 
 	column stations
 		dataType: int64
 		formatString: #,0
-		lineageTag: 55ec7df7-4aef-4bb5-9b8d-1b62400e4d0b
+		lineageTag: 4699e84c-19ce-4eea-a330-c3b962eaeda3
 		summarizeBy: none
 		sourceColumn: stations
 
 	measure 'Total VMT' = SUM ( VMT[vmt_millions] )
 		formatString: #,0.0
-		lineageTag: 4d5f30e0-7467-4ebb-9218-725c963c2d25
+		lineageTag: b89ff1eb-506b-4eb6-84cb-0ddc4842e9f1
 
 
 	measure 'VMT L12M' = CALCULATE ( [Total VMT], DATESINPERIOD ( DimDate[date], MAX ( VMT[month] ), -12, MONTH ) )
 		formatString: #,0.0
-		lineageTag: e14cd031-b614-4b24-b220-af64267d3f3f
+		lineageTag: c25b2e8c-bde4-4927-9de8-756d3abba9b4
 
 
 	measure 'VMT Prev12M' = CALCULATE ( [Total VMT], DATESINPERIOD ( DimDate[date], MAX ( VMT[month] ), -24, MONTH ) ) - [VMT L12M]
 		formatString: #,0.0
-		lineageTag: 2efca9f1-168b-4798-bdfa-c0f42e14e6f4
+		lineageTag: e1056f54-6dae-4145-8c40-e520300af100
 
 
 	measure 'VMT YoY %' = DIVIDE ( [VMT L12M] - [VMT Prev12M], [VMT Prev12M] )
 		formatString: 0.0%
-		lineageTag: 607b903c-4cd9-479d-bd25-fff31c4c338a
+		lineageTag: c5dc9428-31e3-4c0c-8268-8ee8d1915d3d
 
 
 	measure 'VMT YoY Month %' = DIVIDE ( [Total VMT] - [VMT LY], [VMT LY] )
 		formatString: 0.0%
-		lineageTag: e3624882-b195-42d0-9e39-5f84719201da
+		lineageTag: 2dc062a5-37d5-4412-8adc-def92afc0915
 
 
 	measure 'VMT LY' = CALCULATE ( [Total VMT], SAMEPERIODLASTYEAR ( DimDate[date] ) )
 		formatString: #,0.0
-		lineageTag: 4cd32e52-7490-485a-83a5-c8daa68535cd
+		lineageTag: 44c2688b-3ded-4fe9-99b4-353dfc2f8eaa
 
 
 	measure 'Avg Monthly VMT' = AVERAGEX ( VALUES ( DimDate[date] ), [Total VMT] )
 		formatString: #,0.0
-		lineageTag: 42e12e2c-6dd1-413a-9623-5b178b6ac7c0
+		lineageTag: 60717282-e917-48ad-af87-da55522650ef
 
 
 	measure 'States Reporting' = DISTINCTCOUNT ( VMT[state] )
 		formatString: #,0
-		lineageTag: 25029464-0b3c-4367-9340-6f5bcdad8190
+		lineageTag: ebac58be-9628-43a9-a7e1-d05006108f12
 
 
 	measure 'VMT Seasonality' = DIVIDE ( [Total VMT], CALCULATE ( [Total VMT], ALL ( DimDate ) ) )
 		formatString: 0.0%
-		lineageTag: b245c5b6-d6d2-43cb-9593-7158cc154cd1
+		lineageTag: ca309f8c-eabe-4277-bf4d-bba9939d2474
 
 
 	measure 'VMT Share' = DIVIDE ( [Total VMT], CALCULATE ( [Total VMT], ALLSELECTED ( DimState ) ) )
 		formatString: 0.0%
-		lineageTag: fd6117f1-e1d6-4220-9ae7-ae1d96a34d45
+		lineageTag: b28ef46b-3553-4c7b-92ed-059ee7d8581b
 
 
 	measure 'Monitoring Stations' = SUM ( VMT[stations] )
 		formatString: #,0
-		lineageTag: ad8f4709-624c-4e0e-9c56-787a8482d07f
+		lineageTag: 48e5da9e-92eb-4119-a40d-282aee648936
 
 	partition VMT = m
 		mode: import
