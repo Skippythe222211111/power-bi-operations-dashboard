@@ -1,4 +1,4 @@
 expression DataBase = "https://raw.githubusercontent.com/Skippythe222211111/power-bi-operations-dashboard/main/data" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
-	lineageTag: 25a1536d-969e-4b25-91b2-ba503411f991
+	lineageTag: e13c6d59-6628-4dd5-8604-e4a0bee84983
 
 	annotation PBI_ResultType = Text

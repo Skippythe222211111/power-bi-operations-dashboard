@@ -22,59 +22,59 @@
                       "Entity": "VMT"
                     }
                   },
-                  "Property": "Total VMT"
+                  "Property": "VMT L12M"
                 }
               },
-              "queryRef": "VMT.Total VMT",
-              "nativeQueryRef": "Суммарный VMT, млн"
+              "queryRef": "VMT.VMT L12M",
+              "nativeQueryRef": "VMT за 12 мес., млн"
             }
           ]
         }
       }
     },
-    "drillFilterOtherVisuals": true
-  },
-  "visualContainerObjects": {
-    "title": [
-      {
-        "properties": {
-          "show": {
-            "expr": {
-              "Literal": {
-                "Value": "true"
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
               }
-            }
-          },
-          "text": {
-            "expr": {
-              "Literal": {
-                "Value": "'Суммарный VMT за период, млн'"
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'VMT за последние 12 месяцев, млн'"
+                }
               }
-            }
-          },
-          "fontSize": {
-            "expr": {
-              "Literal": {
-                "Value": "12"
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12"
+                }
               }
-            }
-          },
-          "bold": {
-            "expr": {
-              "Literal": {
-                "Value": "true"
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
               }
-            }
-          },
-          "alignment": {
-            "expr": {
-              "Literal": {
-                "Value": "'left'"
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'left'"
+                }
               }
             }
           }
         }
-      }
-    ]
+      ]
+    }
   }
 }

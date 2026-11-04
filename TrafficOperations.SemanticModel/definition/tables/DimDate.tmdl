@@ -1,44 +1,44 @@
 table DimDate
-	lineageTag: 24d4325c-cdc6-4657-853c-e6d0562a2141
+	lineageTag: 92eba572-c542-4758-8a2b-97a106b20ca2
 
 	column date
 		dataType: dateTime
 		formatString: dd.mm.yyyy
-		lineageTag: a373c89b-be4c-457e-b1c1-0be826591feb
+		lineageTag: 3df65978-c86d-434b-95ed-a7eba087b2dc
 		summarizeBy: none
 		sourceColumn: date
 
 	column year
 		dataType: int64
 		formatString: 0
-		lineageTag: df15ac73-dac2-448d-a125-9cbf7e15068d
+		lineageTag: 0ef19767-c256-4373-8721-4f722443c5c0
 		summarizeBy: none
 		sourceColumn: year
 
 	column month_number
 		dataType: int64
 		formatString: 0
-		lineageTag: b82ccde6-15a4-4a15-8f36-f480f0f3eb36
+		lineageTag: 72de64f6-2a8c-43bc-93af-790958c3a580
 		summarizeBy: none
 		sourceColumn: month_number
 
 	column month_name
 		dataType: string
-		lineageTag: 50c951b9-425f-443b-9e2a-4d7702b4c9e6
+		lineageTag: bd9bd448-d14b-4cb9-ba31-d32b5cce2864
 		summarizeBy: none
 		sortByColumn: month_number
 		sourceColumn: month_name
 
 	column month_label
 		dataType: string
-		lineageTag: b2cd693a-1f8a-49c9-94f1-38de26d31b0f
+		lineageTag: a4bcc103-518f-4ed5-abd2-720dc2d3a1d6
 		summarizeBy: none
 		sortByColumn: date
 		sourceColumn: month_label
 
 	column quarter
 		dataType: string
-		lineageTag: 966b2ef7-28b5-4863-869b-d33c3a24f932
+		lineageTag: a9f91a66-a481-4592-b72a-81dfe400a893
 		summarizeBy: none
 		sourceColumn: quarter
 
@@ -46,9 +46,10 @@ table DimDate
 		mode: import
 		source =
 				let
-				    Source = Csv.Document(Web.Contents(DataBase & "/dim_date.csv"),[Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Raw = if Text.StartsWith(DataBase, "http") then Web.Contents(DataBase & "/dim_date.csv") else File.Contents(DataBase & "\dim_date.csv"),
+				    Source = Csv.Document(Raw,[Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
 				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
-				    Typed = Table.TransformColumnTypes(Promoted,{{"date", type date},{"year", Int64.Type}, {"month_number", Int64.Type}, {"month_name", type text}, {"month_label", type text}, {"quarter", type text}})
+				    Typed = Table.TransformColumnTypes(Promoted,{{"date", type date}, {"year", Int64.Type}, {"month_number", Int64.Type}, {"month_name", type text}, {"month_label", type text}, {"quarter", type text}})
 				in
 				    Typed
 

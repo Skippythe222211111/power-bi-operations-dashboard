@@ -19,5 +19,3 @@ ref table VMT
 ref table DimDate
 
 ref table DimState
-
-ref cultureInfo en-US

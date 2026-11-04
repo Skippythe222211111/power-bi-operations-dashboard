@@ -1,7 +1,7 @@
-relationship 21683c5a-0251-4b42-af28-5f72ac252972
+relationship d87cef0b-4edd-4ef0-b892-caf0fde23627
 	fromColumn: VMT.month
 	toColumn: DimDate.date
 
-relationship 3e3a17bf-f12b-4096-9219-0a3a55de4228
+relationship 69c7cdb8-18c9-4c96-a088-e6a0a292d687
 	fromColumn: VMT.state
 	toColumn: DimState.state

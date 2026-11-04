@@ -3,7 +3,7 @@
   "themeCollection": {
     "baseTheme": {
       "name": "CY24SU10",
-      "version": "5.55",
+      "reportVersionAtImport": "5.55",
       "type": "SharedResources"
     }
   },

@@ -1,4 +1,4 @@
-﻿"""Download FHWA Traffic Volume Trends workbooks and build tidy CSVs.
+"""Download FHWA Traffic Volume Trends workbooks and build tidy CSVs.
 
 Usage: python build_tvt_data.py [--months 2024-01..2026-08]
 """
@@ -133,11 +133,11 @@ def main():
         w.writeheader()
         w.writerows(fact)
 
-    ru_month = ["СЏРЅРІ", "С„РµРІ", "РјР°СЂ", "Р°РїСЂ", "РјР°Р№", "РёСЋРЅ",
-                "РёСЋР»", "Р°РІРі", "СЃРµРЅ", "РѕРєС‚", "РЅРѕСЏ", "РґРµРє"]
+    ru_month = ["янв", "фев", "мар", "апр", "май", "июн",
+                "июл", "авг", "сен", "окт", "ноя", "дек"]
     day = dt.date(2023, 1, 1)
     calendar = []
-    while day <= dt.date(2026, 12, 31):
+    while day <= dt.date(2026, 8, 31):
         calendar.append({
             "date": day.isoformat(),
             "year": day.year,

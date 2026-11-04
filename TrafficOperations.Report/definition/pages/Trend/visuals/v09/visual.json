@@ -68,49 +68,49 @@
         }
       }
     },
-    "drillFilterOtherVisuals": true
-  },
-  "visualContainerObjects": {
-    "title": [
-      {
-        "properties": {
-          "show": {
-            "expr": {
-              "Literal": {
-                "Value": "true"
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
               }
-            }
-          },
-          "text": {
-            "expr": {
-              "Literal": {
-                "Value": "'VMT по месяцам и регионам, млн'"
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'VMT по месяцам и регионам, млн'"
+                }
               }
-            }
-          },
-          "fontSize": {
-            "expr": {
-              "Literal": {
-                "Value": "12"
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12"
+                }
               }
-            }
-          },
-          "bold": {
-            "expr": {
-              "Literal": {
-                "Value": "true"
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
               }
-            }
-          },
-          "alignment": {
-            "expr": {
-              "Literal": {
-                "Value": "'left'"
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'left'"
+                }
               }
             }
           }
         }
-      }
-    ]
+      ]
+    }
   }
 }

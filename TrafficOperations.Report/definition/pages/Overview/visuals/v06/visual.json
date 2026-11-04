@@ -70,6 +70,49 @@
       }
     },
     "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Топ-10 штатов по VMT, млн'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'left'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
     "objects": {
       "legend": [
         {
@@ -92,48 +135,5 @@
         }
       ]
     }
-  },
-  "visualContainerObjects": {
-    "title": [
-      {
-        "properties": {
-          "show": {
-            "expr": {
-              "Literal": {
-                "Value": "true"
-              }
-            }
-          },
-          "text": {
-            "expr": {
-              "Literal": {
-                "Value": "'Топ-10 штатов по VMT, млн'"
-              }
-            }
-          },
-          "fontSize": {
-            "expr": {
-              "Literal": {
-                "Value": "12"
-              }
-            }
-          },
-          "bold": {
-            "expr": {
-              "Literal": {
-                "Value": "true"
-              }
-            }
-          },
-          "alignment": {
-            "expr": {
-              "Literal": {
-                "Value": "'left'"
-              }
-            }
-          }
-        }
-      }
-    ]
   }
 }

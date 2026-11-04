@@ -40,10 +40,10 @@
                       "Entity": "VMT"
                     }
                   },
-                  "Property": "VMT YoY %"
+                  "Property": "VMT YoY Month %"
                 }
               },
-              "queryRef": "VMT.VMT YoY %",
+              "queryRef": "VMT.VMT YoY Month %",
               "nativeQueryRef": "YoY, %",
               "format": "0.0%"
             }
@@ -52,6 +52,49 @@
       }
     },
     "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Рост к тому же месяцу прошлого года, %'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'left'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
     "objects": {
       "legend": [
         {
@@ -74,48 +117,5 @@
         }
       ]
     }
-  },
-  "visualContainerObjects": {
-    "title": [
-      {
-        "properties": {
-          "show": {
-            "expr": {
-              "Literal": {
-                "Value": "true"
-              }
-            }
-          },
-          "text": {
-            "expr": {
-              "Literal": {
-                "Value": "'Рост год к году, %'"
-              }
-            }
-          },
-          "fontSize": {
-            "expr": {
-              "Literal": {
-                "Value": "12"
-              }
-            }
-          },
-          "bold": {
-            "expr": {
-              "Literal": {
-                "Value": "true"
-              }
-            }
-          },
-          "alignment": {
-            "expr": {
-              "Literal": {
-                "Value": "'left'"
-              }
-            }
-          }
-        }
-      }
-    ]
   }
 }
