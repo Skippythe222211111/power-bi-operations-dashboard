@@ -1,0 +1,111 @@
+table VMT
+	lineageTag: c4a1cb81-abbe-4b21-b2f6-40024e110005
+
+	column month
+		dataType: dateTime
+		formatString: yyyy-mm
+		lineageTag: 30ab1554-7303-4338-af1e-8c16243bcc9e
+		summarizeBy: none
+		sourceColumn: month
+
+	column state
+		dataType: string
+		lineageTag: 318b2ac6-e5dd-47ff-98a9-4912e3b66ac3
+		summarizeBy: none
+		sourceColumn: state
+
+	column region
+		dataType: string
+		lineageTag: 349c3e62-8693-4084-a522-cee8a3e3ed14
+		summarizeBy: none
+		sourceColumn: region
+
+	column vmt_millions
+		dataType: double
+		formatString: #,0.0
+		lineageTag: d369f9ef-525b-4197-885e-e3ae4eb38f2a
+		summarizeBy: sum
+		sourceColumn: vmt_millions
+
+	column stations
+		dataType: int64
+		formatString: #,0
+		lineageTag: 4c6168fe-dfbb-4ca0-a477-feb2fc762f90
+		summarizeBy: none
+		sourceColumn: stations
+
+	measure 'Total VMT' = SUM ( VMT[vmt_millions] )
+		formatString: #,0.0
+		lineageTag: bb19fea8-068d-4019-8622-487aa76a4ac5
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+
+	measure 'VMT LY' = CALCULATE ( [Total VMT], SAMEPERIODLASTYEAR ( DimDate[date] ) )
+		formatString: #,0.0
+		lineageTag: 2ffdf694-af5e-4436-8453-404e10c25360
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+
+	measure 'VMT YoY %' = DIVIDE ( [Total VMT] - [VMT LY], [VMT LY] )
+		formatString: 0.0%
+		lineageTag: f56f3ce4-2705-42e6-873c-763eb9c2b46b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+
+	measure 'Avg Monthly VMT' = AVERAGEX ( VALUES ( DimDate[date] ), [Total VMT] )
+		formatString: #,0.0
+		lineageTag: a8c5a06b-2b16-4697-91b1-0d37af12ee3b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+
+	measure 'States Reporting' = DISTINCTCOUNT ( VMT[state] )
+		formatString: #,0
+		lineageTag: df38394a-8309-44f0-a5c0-459f0ae8405b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+
+	measure 'VMT Rolling 12M' = CALCULATE ( [Total VMT], DATESINPERIOD ( DimDate[date], MAX ( DimDate[date] ), -12, MONTH ) )
+		formatString: #,0.0
+		lineageTag: e0ea1962-2d84-4e88-a870-206fdcb0a1af
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+
+	measure 'VMT Seasonality' = DIVIDE ( [Total VMT], CALCULATE ( [Total VMT], ALL ( DimDate ) ) )
+		formatString: 0.0%
+		lineageTag: db319e90-e604-4565-aff2-68dda9e64863
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+
+	measure 'VMT Share' = DIVIDE ( [Total VMT], CALCULATE ( [Total VMT], ALLSELECTED ( DimState ) ) )
+		formatString: 0.0%
+		lineageTag: 60073e3d-1725-4b3c-827e-6be5ddb678d0
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+
+	measure 'Stations' = SUM ( VMT[stations] )
+		formatString: #,0
+		lineageTag: d9ba6d80-535f-4f4c-be17-2a8e121186d0
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition VMT = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(Web.Contents(DataBase & "/traffic_vmt_monthly.csv"),[Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted,{{"month", type date},{"state", type text}, {"region", type text}, {"vmt_millions", type number}, {"stations", Int64.Type}})
+				in
+				    Typed
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table

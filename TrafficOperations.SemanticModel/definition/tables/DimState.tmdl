@@ -1,0 +1,28 @@
+table DimState
+	lineageTag: f01ca6dd-9075-4ab7-b54f-b6ce5df605fe
+
+	column state
+		dataType: string
+		lineageTag: 3b1212e2-2497-40fc-8e54-61398693620d
+		summarizeBy: none
+		sourceColumn: state
+
+	column region
+		dataType: string
+		lineageTag: 50c5d368-decd-4c0e-b4e3-2b319e378620
+		summarizeBy: none
+		sourceColumn: region
+
+	partition DimState = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(Web.Contents(DataBase & "/dim_state.csv"),[Delimiter=",", Columns=2, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted,{{"state", type text}, {"region", type text}})
+				in
+				    Typed
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table

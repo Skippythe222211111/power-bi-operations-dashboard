@@ -1,0 +1,138 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "v13",
+  "position": {
+    "x": 296,
+    "y": 16,
+    "z": 0,
+    "width": 968,
+    "height": 396
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DimState"
+                    }
+                  },
+                  "Property": "state"
+                }
+              },
+              "queryRef": "DimState.state",
+              "nativeQueryRef": "state"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DimState"
+                    }
+                  },
+                  "Property": "region"
+                }
+              },
+              "queryRef": "DimState.region",
+              "nativeQueryRef": "region"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VMT"
+                    }
+                  },
+                  "Property": "Total VMT"
+                }
+              },
+              "queryRef": "VMT.Total VMT",
+              "nativeQueryRef": "VMT, млн"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VMT"
+                    }
+                  },
+                  "Property": "VMT YoY %"
+                }
+              },
+              "queryRef": "VMT.VMT YoY %",
+              "nativeQueryRef": "YoY, %",
+              "format": "0.0%"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VMT"
+                    }
+                  },
+                  "Property": "VMT Share"
+                }
+              },
+              "queryRef": "VMT.VMT Share",
+              "nativeQueryRef": "Доля в VMT",
+              "format": "0.0%"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "visualContainerObjects": {
+    "title": [
+      {
+        "properties": {
+          "show": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "text": {
+            "expr": {
+              "Literal": {
+                "Value": "'Штаты: объём, динамика, доля'"
+              }
+            }
+          },
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "12"
+              }
+            }
+          },
+          "bold": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "alignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'left'"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

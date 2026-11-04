@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "TrafficOperations"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "36df0967-9ea5-4373-bb6b-f0320405b5c4"
+  }
+}

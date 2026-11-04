@@ -1,0 +1,1633 @@
+month,state,region,vmt_millions,stations
+2024-01-01,Connecticut,Northeast,2396.0,10
+2024-01-01,Maine,Northeast,1097.0,130
+2024-01-01,Massachusetts,Northeast,4541.0,227
+2024-01-01,New Hampshire,Northeast,1008.0,121
+2024-01-01,New Jersey,Northeast,5838.0,80
+2024-01-01,New York,Northeast,9070.0,97
+2024-01-01,Pennsylvania,Northeast,7451.0,107
+2024-01-01,Rhode Island,Northeast,564.0,28
+2024-01-01,Vermont,Northeast,584.0,35
+2024-01-01,Delaware,South Atlantic,700.0,15
+2024-01-01,District of Columbia,South Atlantic,230.0,8
+2024-01-01,Florida,South Atlantic,19578.0,259
+2024-01-01,Georgia,South Atlantic,10331.0,198
+2024-01-01,Maryland,South Atlantic,4356.0,47
+2024-01-01,North Carolina,South Atlantic,9642.0,60
+2024-01-01,South Carolina,South Atlantic,4821.0,111
+2024-01-01,Virginia,South Atlantic,6285.0,707
+2024-01-01,West Virginia,South Atlantic,1088.0,24
+2024-01-01,Illinois,North Central,7929.0,55
+2024-01-01,Indiana,North Central,6849.0,64
+2024-01-01,Iowa,North Central,2351.0,132
+2024-01-01,Kansas,North Central,2256.0,38
+2024-01-01,Michigan,North Central,6816.0,109
+2024-01-01,Minnesota,North Central,4356.0,47
+2024-01-01,Missouri,North Central,5423.0,167
+2024-01-01,Nebraska,North Central,1514.0,61
+2024-01-01,North Dakota,North Central,672.0,68
+2024-01-01,Ohio,North Central,8191.0,156
+2024-01-01,South Dakota,North Central,677.0,40
+2024-01-01,Wisconsin,North Central,4786.0,272
+2024-01-01,Alabama,South Gulf,5471.0,245
+2024-01-01,Arkansas,South Gulf,2871.0,11
+2024-01-01,Kentucky,South Gulf,3557.0,66
+2024-01-01,Louisiana,South Gulf,4386.0,41
+2024-01-01,Mississippi,South Gulf,3054.0,84
+2024-01-01,Oklahoma,South Gulf,3340.0,77
+2024-01-01,Tennessee,South Gulf,5894.0,37
+2024-01-01,Texas,South Gulf,23772.0,25
+2024-01-01,Alaska,West,384.0,89
+2024-01-01,Arizona,West,6118.0,212
+2024-01-01,California,West,25290.0,64
+2024-01-01,Colorado,West,4165.0,116
+2024-01-01,Hawaii,West,892.0,72
+2024-01-01,Idaho,West,1380.0,199
+2024-01-01,Montana,West,920.0,86
+2024-01-01,Nevada,West,2181.0,80
+2024-01-01,New Mexico,West,2133.0,32
+2024-01-01,Oregon,West,2425.0,150
+2024-01-01,Utah,West,2762.0,91
+2024-01-01,Washington,West,4098.0,176
+2024-01-01,Wyoming,West,634.0,136
+2024-02-01,Connecticut,Northeast,2083.0,7
+2024-02-01,Maine,Northeast,1055.0,130
+2024-02-01,Massachusetts,Northeast,4335.0,217
+2024-02-01,New Hampshire,Northeast,991.0,122
+2024-02-01,New Jersey,Northeast,5623.0,75
+2024-02-01,New York,Northeast,8684.0,105
+2024-02-01,Pennsylvania,Northeast,7399.0,110
+2024-02-01,Rhode Island,Northeast,535.0,28
+2024-02-01,Vermont,Northeast,574.0,39
+2024-02-01,Delaware,South Atlantic,1016.0,25
+2024-02-01,District of Columbia,South Atlantic,245.0,
+2024-02-01,Florida,South Atlantic,18427.0,253
+2024-02-01,Georgia,South Atlantic,10005.0,195
+2024-02-01,Maryland,South Atlantic,4311.0,47
+2024-02-01,North Carolina,South Atlantic,9290.0,58
+2024-02-01,South Carolina,South Atlantic,4785.0,110
+2024-02-01,Virginia,South Atlantic,6246.0,707
+2024-02-01,West Virginia,South Atlantic,1113.0,32
+2024-02-01,Illinois,North Central,7703.0,68
+2024-02-01,Indiana,North Central,6958.0,59
+2024-02-01,Iowa,North Central,2304.0,90
+2024-02-01,Kansas,North Central,2319.0,38
+2024-02-01,Michigan,North Central,7063.0,109
+2024-02-01,Minnesota,North Central,4003.0,42
+2024-02-01,Missouri,North Central,5657.0,167
+2024-02-01,Nebraska,North Central,1568.0,56
+2024-02-01,North Dakota,North Central,650.0,65
+2024-02-01,Ohio,North Central,8069.0,156
+2024-02-01,South Dakota,North Central,684.0,41
+2024-02-01,Wisconsin,North Central,4680.0,272
+2024-02-01,Alabama,South Gulf,5584.0,244
+2024-02-01,Arkansas,South Gulf,2790.0,10
+2024-02-01,Kentucky,South Gulf,3629.0,70
+2024-02-01,Louisiana,South Gulf,4498.0,42
+2024-02-01,Mississippi,South Gulf,3060.0,81
+2024-02-01,Oklahoma,South Gulf,3324.0,77
+2024-02-01,Tennessee,South Gulf,6231.0,38
+2024-02-01,Texas,South Gulf,23052.0,225
+2024-02-01,Alaska,West,376.0,90
+2024-02-01,Arizona,West,5789.0,224
+2024-02-01,California,West,22664.0,101
+2024-02-01,Colorado,West,4012.0,115
+2024-02-01,Hawaii,West,812.0,74
+2024-02-01,Idaho,West,1393.0,200
+2024-02-01,Montana,West,907.0,82
+2024-02-01,Nevada,West,2031.0,81
+2024-02-01,New Mexico,West,1979.0,33
+2024-02-01,Oregon,West,2577.0,153
+2024-02-01,Utah,West,2613.0,
+2024-02-01,Washington,West,3931.0,177
+2024-02-01,Wyoming,West,618.0,125
+2024-03-01,Connecticut,Northeast,2618.0,16
+2024-03-01,Maine,Northeast,1161.0,127
+2024-03-01,Massachusetts,Northeast,4909.0,218
+2024-03-01,New Hampshire,Northeast,1077.0,95
+2024-03-01,New Jersey,Northeast,6609.0,74
+2024-03-01,New York,Northeast,9886.0,113
+2024-03-01,Pennsylvania,Northeast,8428.0,107
+2024-03-01,Rhode Island,Northeast,632.0,27
+2024-03-01,Vermont,Northeast,565.0,38
+2024-03-01,Delaware,South Atlantic,837.0,22
+2024-03-01,District of Columbia,South Atlantic,380.0,
+2024-03-01,Florida,South Atlantic,21154.0,250
+2024-03-01,Georgia,South Atlantic,11222.0,204
+2024-03-01,Maryland,South Atlantic,4761.0,47
+2024-03-01,North Carolina,South Atlantic,10426.0,57
+2024-03-01,South Carolina,South Atlantic,5416.0,115
+2024-03-01,Virginia,South Atlantic,7148.0,708
+2024-03-01,West Virginia,South Atlantic,1323.0,32
+2024-03-01,Illinois,North Central,8966.0,67
+2024-03-01,Indiana,North Central,8090.0,62
+2024-03-01,Iowa,North Central,2641.0,86
+2024-03-01,Kansas,North Central,2590.0,38
+2024-03-01,Michigan,North Central,7946.0,108
+2024-03-01,Minnesota,North Central,4539.0,43
+2024-03-01,Missouri,North Central,6782.0,164
+2024-03-01,Nebraska,North Central,1785.0,57
+2024-03-01,North Dakota,North Central,718.0,67
+2024-03-01,Ohio,North Central,9265.0,154
+2024-03-01,South Dakota,North Central,795.0,40
+2024-03-01,Wisconsin,North Central,5301.0,285
+2024-03-01,Alabama,South Gulf,6275.0,247
+2024-03-01,Arkansas,South Gulf,3374.0,7
+2024-03-01,Kentucky,South Gulf,4196.0,69
+2024-03-01,Louisiana,South Gulf,5024.0,46
+2024-03-01,Mississippi,South Gulf,3393.0,80
+2024-03-01,Oklahoma,South Gulf,4004.0,73
+2024-03-01,Tennessee,South Gulf,7658.0,42
+2024-03-01,Texas,South Gulf,26264.0,224
+2024-03-01,Alaska,West,450.0,96
+2024-03-01,Arizona,West,6809.0,246
+2024-03-01,California,West,25967.0,86
+2024-03-01,Colorado,West,4384.0,117
+2024-03-01,Hawaii,West,884.0,73
+2024-03-01,Idaho,West,1597.0,195
+2024-03-01,Montana,West,1083.0,81
+2024-03-01,Nevada,West,2325.0,78
+2024-03-01,New Mexico,West,2389.0,39
+2024-03-01,Oregon,West,3034.0,159
+2024-03-01,Utah,West,2817.0,
+2024-03-01,Washington,West,4903.0,176
+2024-03-01,Wyoming,West,697.0,130
+2024-04-01,Connecticut,Northeast,2456.0,17
+2024-04-01,Maine,Northeast,1068.0,125
+2024-04-01,Massachusetts,Northeast,4716.0,228
+2024-04-01,New Hampshire,Northeast,1062.0,80
+2024-04-01,New Jersey,Northeast,5845.0,76
+2024-04-01,New York,Northeast,9217.0,118
+2024-04-01,Pennsylvania,Northeast,8351.0,71
+2024-04-01,Rhode Island,Northeast,639.0,27
+2024-04-01,Vermont,Northeast,515.0,45
+2024-04-01,Delaware,South Atlantic,711.0,24
+2024-04-01,District of Columbia,South Atlantic,390.0,
+2024-04-01,Florida,South Atlantic,18595.0,248
+2024-04-01,Georgia,South Atlantic,10667.0,199
+2024-04-01,Maryland,South Atlantic,4524.0,46
+2024-04-01,North Carolina,South Atlantic,8967.0,92
+2024-04-01,South Carolina,South Atlantic,5038.0,116
+2024-04-01,Virginia,South Atlantic,6812.0,705
+2024-04-01,West Virginia,South Atlantic,1371.0,33
+2024-04-01,Illinois,North Central,9196.0,86
+2024-04-01,Indiana,North Central,7927.0,63
+2024-04-01,Iowa,North Central,2788.0,38
+2024-04-01,Kansas,North Central,2648.0,36
+2024-04-01,Michigan,North Central,7218.0,108
+2024-04-01,Minnesota,North Central,4739.0,43
+2024-04-01,Missouri,North Central,6399.0,163
+2024-04-01,Nebraska,North Central,1807.0,58
+2024-04-01,North Dakota,North Central,810.0,63
+2024-04-01,Ohio,North Central,9438.0,156
+2024-04-01,South Dakota,North Central,833.0,40
+2024-04-01,Wisconsin,North Central,5538.0,279
+2024-04-01,Alabama,South Gulf,5850.0,246
+2024-04-01,Arkansas,South Gulf,3157.0,7
+2024-04-01,Kentucky,South Gulf,4052.0,71
+2024-04-01,Louisiana,South Gulf,4803.0,45
+2024-04-01,Mississippi,South Gulf,3224.0,86
+2024-04-01,Oklahoma,South Gulf,3885.0,72
+2024-04-01,Tennessee,South Gulf,7035.0,47
+2024-04-01,Texas,South Gulf,24645.0,192
+2024-04-01,Alaska,West,451.0,96
+2024-04-01,Arizona,West,6520.0,253
+2024-04-01,California,West,26254.0,108
+2024-04-01,Colorado,West,4039.0,115
+2024-04-01,Hawaii,West,787.0,72
+2024-04-01,Idaho,West,1664.0,184
+2024-04-01,Montana,West,1129.0,78
+2024-04-01,Nevada,West,2289.0,83
+2024-04-01,New Mexico,West,2343.0,42
+2024-04-01,Oregon,West,3017.0,154
+2024-04-01,Utah,West,2828.0,81
+2024-04-01,Washington,West,4911.0,175
+2024-04-01,Wyoming,West,730.0,133
+2024-05-01,Connecticut,Northeast,2691.0,13
+2024-05-01,Maine,Northeast,1347.0,128
+2024-05-01,Massachusetts,Northeast,5304.0,226
+2024-05-01,New Hampshire,Northeast,1223.0,83
+2024-05-01,New Jersey,Northeast,6911.0,71
+2024-05-01,New York,Northeast,10845.0,114
+2024-05-01,Pennsylvania,Northeast,9345.0,108
+2024-05-01,Rhode Island,Northeast,694.0,28
+2024-05-01,Vermont,Northeast,634.0,48
+2024-05-01,Delaware,South Atlantic,903.0,23
+2024-05-01,District of Columbia,South Atlantic,295.0,
+2024-05-01,Florida,South Atlantic,20875.0,248
+2024-05-01,Georgia,South Atlantic,11542.0,199
+2024-05-01,Maryland,South Atlantic,5027.0,44
+2024-05-01,North Carolina,South Atlantic,10802.0,91
+2024-05-01,South Carolina,South Atlantic,5335.0,122
+2024-05-01,Virginia,South Atlantic,7400.0,703
+2024-05-01,West Virginia,South Atlantic,1456.0,35
+2024-05-01,Illinois,North Central,9870.0,80
+2024-05-01,Indiana,North Central,9167.0,63
+2024-05-01,Iowa,North Central,3070.0,118
+2024-05-01,Kansas,North Central,2919.0,37
+2024-05-01,Michigan,North Central,9132.0,105
+2024-05-01,Minnesota,North Central,5758.0,108
+2024-05-01,Missouri,North Central,7137.0,160
+2024-05-01,Nebraska,North Central,1970.0,57
+2024-05-01,North Dakota,North Central,924.0,66
+2024-05-01,Ohio,North Central,10302.0,155
+2024-05-01,South Dakota,North Central,948.0,41
+2024-05-01,Wisconsin,North Central,6209.0,263
+2024-05-01,Alabama,South Gulf,6461.0,250
+2024-05-01,Arkansas,South Gulf,3571.0,9
+2024-05-01,Kentucky,South Gulf,4467.0,71
+2024-05-01,Louisiana,South Gulf,5184.0,44
+2024-05-01,Mississippi,South Gulf,3660.0,83
+2024-05-01,Oklahoma,South Gulf,4129.0,74
+2024-05-01,Tennessee,South Gulf,7686.0,63
+2024-05-01,Texas,South Gulf,26466.0,229
+2024-05-01,Alaska,West,505.0,100
+2024-05-01,Arizona,West,6826.0,256
+2024-05-01,California,West,27903.0,103
+2024-05-01,Colorado,West,4906.0,118
+2024-05-01,Hawaii,West,819.0,65
+2024-05-01,Idaho,West,1804.0,199
+2024-05-01,Montana,West,1207.0,77
+2024-05-01,Nevada,West,2422.0,84
+2024-05-01,New Mexico,West,2641.0,39
+2024-05-01,Oregon,West,3267.0,155
+2024-05-01,Utah,West,3115.0,81
+2024-05-01,Washington,West,5481.0,171
+2024-05-01,Wyoming,West,858.0,134
+2024-06-01,Connecticut,Northeast,2763.0,20
+2024-06-01,Maine,Northeast,1399.0,128
+2024-06-01,Massachusetts,Northeast,5013.0,219
+2024-06-01,New Hampshire,Northeast,1215.0,83
+2024-06-01,New Jersey,Northeast,6957.0,67
+2024-06-01,New York,Northeast,10893.0,116
+2024-06-01,Pennsylvania,Northeast,8926.0,107
+2024-06-01,Rhode Island,Northeast,677.0,28
+2024-06-01,Vermont,Northeast,622.0,36
+2024-06-01,Delaware,South Atlantic,892.0,24
+2024-06-01,District of Columbia,South Atlantic,282.0,6
+2024-06-01,Florida,South Atlantic,18924.0,246
+2024-06-01,Georgia,South Atlantic,10965.0,197
+2024-06-01,Maryland,South Atlantic,4856.0,47
+2024-06-01,North Carolina,South Atlantic,10512.0,93
+2024-06-01,South Carolina,South Atlantic,5052.0,122
+2024-06-01,Virginia,South Atlantic,7224.0,704
+2024-06-01,West Virginia,South Atlantic,1403.0,31
+2024-06-01,Illinois,North Central,9146.0,80
+2024-06-01,Indiana,North Central,8736.0,60
+2024-06-01,Iowa,North Central,2952.0,111
+2024-06-01,Kansas,North Central,2775.0,36
+2024-06-01,Michigan,North Central,8789.0,109
+2024-06-01,Minnesota,North Central,5594.0,103
+2024-06-01,Missouri,North Central,7084.0,160
+2024-06-01,Nebraska,North Central,1959.0,59
+2024-06-01,North Dakota,North Central,887.0,61
+2024-06-01,Ohio,North Central,9757.0,157
+2024-06-01,South Dakota,North Central,929.0,40
+2024-06-01,Wisconsin,North Central,6152.0,261
+2024-06-01,Alabama,South Gulf,6213.0,250
+2024-06-01,Arkansas,South Gulf,3522.0,10
+2024-06-01,Kentucky,South Gulf,4254.0,68
+2024-06-01,Louisiana,South Gulf,4630.0,44
+2024-06-01,Mississippi,South Gulf,3409.0,83
+2024-06-01,Oklahoma,South Gulf,3870.0,72
+2024-06-01,Tennessee,South Gulf,7290.0,66
+2024-06-01,Texas,South Gulf,25451.0,223
+2024-06-01,Alaska,West,549.0,102
+2024-06-01,Arizona,West,6653.0,247
+2024-06-01,California,West,28661.0,84
+2024-06-01,Colorado,West,4985.0,117
+2024-06-01,Hawaii,West,816.0,72
+2024-06-01,Idaho,West,1810.0,184
+2024-06-01,Montana,West,1324.0,75
+2024-06-01,Nevada,West,2430.0,83
+2024-06-01,New Mexico,West,2406.0,45
+2024-06-01,Oregon,West,3394.0,150
+2024-06-01,Utah,West,3019.0,
+2024-06-01,Washington,West,5562.0,166
+2024-06-01,Wyoming,West,929.0,127
+2024-07-01,Connecticut,Northeast,2752.0,13
+2024-07-01,Maine,Northeast,1452.0,126
+2024-07-01,Massachusetts,Northeast,5154.0,213
+2024-07-01,New Hampshire,Northeast,1314.0,80
+2024-07-01,New Jersey,Northeast,7019.0,68
+2024-07-01,New York,Northeast,11130.0,119
+2024-07-01,Pennsylvania,Northeast,9211.0,112
+2024-07-01,Rhode Island,Northeast,656.0,28
+2024-07-01,Vermont,Northeast,670.0,15
+2024-07-01,Delaware,South Atlantic,722.0,24
+2024-07-01,District of Columbia,South Atlantic,290.0,6
+2024-07-01,Florida,South Atlantic,19405.0,248
+2024-07-01,Georgia,South Atlantic,11028.0,199
+2024-07-01,Maryland,South Atlantic,5013.0,48
+2024-07-01,North Carolina,South Atlantic,10663.0,88
+2024-07-01,South Carolina,South Atlantic,5185.0,127
+2024-07-01,Virginia,South Atlantic,7341.0,699
+2024-07-01,West Virginia,South Atlantic,1402.0,28
+2024-07-01,Illinois,North Central,9201.0,81
+2024-07-01,Indiana,North Central,9175.0,60
+2024-07-01,Iowa,North Central,3045.0,107
+2024-07-01,Kansas,North Central,2933.0,38
+2024-07-01,Michigan,North Central,9138.0,108
+2024-07-01,Minnesota,North Central,5625.0,96
+2024-07-01,Missouri,North Central,7423.0,160
+2024-07-01,Nebraska,North Central,2010.0,58
+2024-07-01,North Dakota,North Central,932.0,67
+2024-07-01,Ohio,North Central,10059.0,154
+2024-07-01,South Dakota,North Central,974.0,39
+2024-07-01,Wisconsin,North Central,6640.0,253
+2024-07-01,Alabama,South Gulf,6242.0,248
+2024-07-01,Arkansas,South Gulf,3647.0,13
+2024-07-01,Kentucky,South Gulf,4339.0,68
+2024-07-01,Louisiana,South Gulf,4914.0,43
+2024-07-01,Mississippi,South Gulf,3538.0,82
+2024-07-01,Oklahoma,South Gulf,3923.0,72
+2024-07-01,Tennessee,South Gulf,7381.0,74
+2024-07-01,Texas,South Gulf,25921.0,218
+2024-07-01,Alaska,West,577.0,96
+2024-07-01,Arizona,West,7008.0,229
+2024-07-01,California,West,30281.0,127
+2024-07-01,Colorado,West,5071.0,117
+2024-07-01,Hawaii,West,847.0,71
+2024-07-01,Idaho,West,1895.0,174
+2024-07-01,Montana,West,1420.0,77
+2024-07-01,Nevada,West,2492.0,82
+2024-07-01,New Mexico,West,2446.0,44
+2024-07-01,Oregon,West,3555.0,152
+2024-07-01,Utah,West,3175.0,
+2024-07-01,Washington,West,6098.0,165
+2024-07-01,Wyoming,West,1011.0,125
+2024-08-01,Connecticut,Northeast,2776.0,19
+2024-08-01,Maine,Northeast,1509.0,129
+2024-08-01,Massachusetts,Northeast,5279.0,211
+2024-08-01,New Hampshire,Northeast,1309.0,76
+2024-08-01,New Jersey,Northeast,7028.0,66
+2024-08-01,New York,Northeast,11140.0,119
+2024-08-01,Pennsylvania,Northeast,9323.0,106
+2024-08-01,Rhode Island,Northeast,779.0,23
+2024-08-01,Vermont,Northeast,686.0,23
+2024-08-01,Delaware,South Atlantic,812.0,22
+2024-08-01,District of Columbia,South Atlantic,283.0,6
+2024-08-01,Florida,South Atlantic,19078.0,245
+2024-08-01,Georgia,South Atlantic,11432.0,192
+2024-08-01,Maryland,South Atlantic,5092.0,44
+2024-08-01,North Carolina,South Atlantic,10778.0,88
+2024-08-01,South Carolina,South Atlantic,5148.0,130
+2024-08-01,Virginia,South Atlantic,7405.0,698
+2024-08-01,West Virginia,South Atlantic,1416.0,25
+2024-08-01,Illinois,North Central,9436.0,79
+2024-08-01,Indiana,North Central,9410.0,55
+2024-08-01,Iowa,North Central,3092.0,107
+2024-08-01,Kansas,North Central,2926.0,35
+2024-08-01,Michigan,North Central,9207.0,109
+2024-08-01,Minnesota,North Central,5200.0,80
+2024-08-01,Missouri,North Central,7347.0,159
+2024-08-01,Nebraska,North Central,2063.0,55
+2024-08-01,North Dakota,North Central,932.0,61
+2024-08-01,Ohio,North Central,10114.0,151
+2024-08-01,South Dakota,North Central,993.0,37
+2024-08-01,Wisconsin,North Central,6514.0,245
+2024-08-01,Alabama,South Gulf,6288.0,245
+2024-08-01,Arkansas,South Gulf,3564.0,14
+2024-08-01,Kentucky,South Gulf,4400.0,71
+2024-08-01,Louisiana,South Gulf,4802.0,45
+2024-08-01,Mississippi,South Gulf,3608.0,86
+2024-08-01,Oklahoma,South Gulf,3943.0,72
+2024-08-01,Tennessee,South Gulf,7772.0,76
+2024-08-01,Texas,South Gulf,26527.0,217
+2024-08-01,Alaska,West,597.0,99
+2024-08-01,Arizona,West,6834.0,224
+2024-08-01,California,West,29337.0,122
+2024-08-01,Colorado,West,5156.0,115
+2024-08-01,Hawaii,West,861.0,69
+2024-08-01,Idaho,West,1881.0,184
+2024-08-01,Montana,West,1432.0,78
+2024-08-01,Nevada,West,2572.0,84
+2024-08-01,New Mexico,West,2316.0,46
+2024-08-01,Oregon,West,3549.0,150
+2024-08-01,Utah,West,3229.0,
+2024-08-01,Washington,West,6074.0,161
+2024-08-01,Wyoming,West,984.0,128
+2024-09-01,Connecticut,Northeast,2596.0,18
+2024-09-01,Maine,Northeast,1392.0,127
+2024-09-01,Massachusetts,Northeast,4964.0,215
+2024-09-01,New Hampshire,Northeast,1192.0,81
+2024-09-01,New Jersey,Northeast,6488.0,62
+2024-09-01,New York,Northeast,10404.0,117
+2024-09-01,Pennsylvania,Northeast,8729.0,107
+2024-09-01,Rhode Island,Northeast,775.0,9
+2024-09-01,Vermont,Northeast,637.0,34
+2024-09-01,Delaware,South Atlantic,819.0,20
+2024-09-01,District of Columbia,South Atlantic,271.0,
+2024-09-01,Florida,South Atlantic,19291.0,252
+2024-09-01,Georgia,South Atlantic,10699.0,189
+2024-09-01,Maryland,South Atlantic,4813.0,48
+2024-09-01,North Carolina,South Atlantic,9979.0,89
+2024-09-01,South Carolina,South Atlantic,4949.0,133
+2024-09-01,Virginia,South Atlantic,7037.0,696
+2024-09-01,West Virginia,South Atlantic,1337.0,28
+2024-09-01,Illinois,North Central,8811.0,74
+2024-09-01,Indiana,North Central,8848.0,59
+2024-09-01,Iowa,North Central,2903.0,114
+2024-09-01,Kansas,North Central,2778.0,33
+2024-09-01,Michigan,North Central,8511.0,110
+2024-09-01,Minnesota,North Central,5287.0,93
+2024-09-01,Missouri,North Central,6798.0,162
+2024-09-01,Nebraska,North Central,1971.0,61
+2024-09-01,North Dakota,North Central,884.0,55
+2024-09-01,Ohio,North Central,9595.0,151
+2024-09-01,South Dakota,North Central,941.0,37
+2024-09-01,Wisconsin,North Central,5977.0,262
+2024-09-01,Alabama,South Gulf,5856.0,250
+2024-09-01,Arkansas,South Gulf,3250.0,10
+2024-09-01,Kentucky,South Gulf,4187.0,74
+2024-09-01,Louisiana,South Gulf,4569.0,45
+2024-09-01,Mississippi,South Gulf,3320.0,82
+2024-09-01,Oklahoma,South Gulf,3853.0,74
+2024-09-01,Tennessee,South Gulf,7168.0,70
+2024-09-01,Texas,South Gulf,25105.0,214
+2024-09-01,Alaska,West,499.0,96
+2024-09-01,Arizona,West,6672.0,222
+2024-09-01,California,West,27592.0,86
+2024-09-01,Colorado,West,4907.0,116
+2024-09-01,Hawaii,West,837.0,69
+2024-09-01,Idaho,West,1766.0,182
+2024-09-01,Montana,West,1302.0,79
+2024-09-01,Nevada,West,2410.0,77
+2024-09-01,New Mexico,West,2291.0,43
+2024-09-01,Oregon,West,3278.0,153
+2024-09-01,Utah,West,3065.0,
+2024-09-01,Washington,West,5312.0,165
+2024-09-01,Wyoming,West,886.0,123
+2024-10-01,Connecticut,Northeast,2863.0,29
+2024-10-01,Maine,Northeast,1406.0,127
+2024-10-01,Massachusetts,Northeast,5287.0,223
+2024-10-01,New Hampshire,Northeast,1235.0,83
+2024-10-01,New Jersey,Northeast,7136.0,63
+2024-10-01,New York,Northeast,10802.0,114
+2024-10-01,Pennsylvania,Northeast,9414.0,111
+2024-10-01,Rhode Island,Northeast,678.0,19
+2024-10-01,Vermont,Northeast,721.0,30
+2024-10-01,Delaware,South Atlantic,849.0,22
+2024-10-01,District of Columbia,South Atlantic,280.0,6
+2024-10-01,Florida,South Atlantic,19650.0,248
+2024-10-01,Georgia,South Atlantic,11863.0,188
+2024-10-01,Maryland,South Atlantic,5169.0,48
+2024-10-01,North Carolina,South Atlantic,11132.0,87
+2024-10-01,South Carolina,South Atlantic,5419.0,129
+2024-10-01,Virginia,South Atlantic,7574.0,695
+2024-10-01,West Virginia,South Atlantic,1412.0,24
+2024-10-01,Illinois,North Central,9637.0,86
+2024-10-01,Indiana,North Central,8861.0,61
+2024-10-01,Iowa,North Central,2968.0,118
+2024-10-01,Kansas,North Central,2843.0,36
+2024-10-01,Michigan,North Central,8949.0,107
+2024-10-01,Minnesota,North Central,5377.0,108
+2024-10-01,Missouri,North Central,7284.0,159
+2024-10-01,Nebraska,North Central,2000.0,61
+2024-10-01,North Dakota,North Central,950.0,53
+2024-10-01,Ohio,North Central,9856.0,151
+2024-10-01,South Dakota,North Central,983.0,36
+2024-10-01,Wisconsin,North Central,6254.0,265
+2024-10-01,Alabama,South Gulf,6337.0,252
+2024-10-01,Arkansas,South Gulf,3579.0,8
+2024-10-01,Kentucky,South Gulf,4469.0,77
+2024-10-01,Louisiana,South Gulf,4989.0,46
+2024-10-01,Mississippi,South Gulf,3605.0,86
+2024-10-01,Oklahoma,South Gulf,4062.0,75
+2024-10-01,Tennessee,South Gulf,7622.0,71
+2024-10-01,Texas,South Gulf,26889.0,205
+2024-10-01,Alaska,West,467.0,96
+2024-10-01,Arizona,West,6991.0,148
+2024-10-01,California,West,27679.0,99
+2024-10-01,Colorado,West,5006.0,115
+2024-10-01,Hawaii,West,911.0,74
+2024-10-01,Idaho,West,1817.0,193
+2024-10-01,Montana,West,1209.0,81
+2024-10-01,Nevada,West,2543.0,78
+2024-10-01,New Mexico,West,2442.0,43
+2024-10-01,Oregon,West,3275.0,146
+2024-10-01,Utah,West,3187.0,94
+2024-10-01,Washington,West,5166.0,172
+2024-10-01,Wyoming,West,845.0,119
+2024-11-01,Connecticut,Northeast,2626.0,33
+2024-11-01,Maine,Northeast,1171.0,128
+2024-11-01,Massachusetts,Northeast,4861.0,221
+2024-11-01,New Hampshire,Northeast,1057.0,72
+2024-11-01,New Jersey,Northeast,6502.0,
+2024-11-01,New York,Northeast,9761.0,118
+2024-11-01,Pennsylvania,Northeast,8435.0,110
+2024-11-01,Rhode Island,Northeast,635.0,71
+2024-11-01,Vermont,Northeast,554.0,34
+2024-11-01,Delaware,South Atlantic,853.0,19
+2024-11-01,District of Columbia,South Atlantic,203.0,6
+2024-11-01,Florida,South Atlantic,20043.0,252
+2024-11-01,Georgia,South Atlantic,10847.0,187
+2024-11-01,Maryland,South Atlantic,4722.0,51
+2024-11-01,North Carolina,South Atlantic,9932.0,89
+2024-11-01,South Carolina,South Atlantic,4947.0,130
+2024-11-01,Virginia,South Atlantic,7073.0,711
+2024-11-01,West Virginia,South Atlantic,1245.0,22
+2024-11-01,Illinois,North Central,8336.0,83
+2024-11-01,Indiana,North Central,7697.0,61
+2024-11-01,Iowa,North Central,2691.0,122
+2024-11-01,Kansas,North Central,2556.0,36
+2024-11-01,Michigan,North Central,7996.0,112
+2024-11-01,Minnesota,North Central,4871.0,103
+2024-11-01,Missouri,North Central,6865.0,161
+2024-11-01,Nebraska,North Central,1818.0,62
+2024-11-01,North Dakota,North Central,763.0,56
+2024-11-01,Ohio,North Central,8935.0,153
+2024-11-01,South Dakota,North Central,832.0,35
+2024-11-01,Wisconsin,North Central,5419.0,277
+2024-11-01,Alabama,South Gulf,5824.0,258
+2024-11-01,Arkansas,South Gulf,3296.0,11
+2024-11-01,Kentucky,South Gulf,3987.0,77
+2024-11-01,Louisiana,South Gulf,4649.0,45
+2024-11-01,Mississippi,South Gulf,3302.0,81
+2024-11-01,Oklahoma,South Gulf,3756.0,74
+2024-11-01,Tennessee,South Gulf,7113.0,68
+2024-11-01,Texas,South Gulf,25273.0,207
+2024-11-01,Alaska,West,393.0,89
+2024-11-01,Arizona,West,6329.0,213
+2024-11-01,California,West,24749.0,75
+2024-11-01,Colorado,West,4161.0,118
+2024-11-01,Hawaii,West,894.0,71
+2024-11-01,Idaho,West,1557.0,196
+2024-11-01,Montana,West,1001.0,79
+2024-11-01,Nevada,West,2276.0,80
+2024-11-01,New Mexico,West,2229.0,42
+2024-11-01,Oregon,West,2867.0,147
+2024-11-01,Utah,West,2918.0,95
+2024-11-01,Washington,West,4573.0,177
+2024-11-01,Wyoming,West,689.0,123
+2024-12-01,Connecticut,Northeast,2497.0,27
+2024-12-01,Maine,Northeast,1152.0,128
+2024-12-01,Massachusetts,Northeast,4979.0,227
+2024-12-01,New Hampshire,Northeast,1044.0,63
+2024-12-01,New Jersey,Northeast,6389.0,
+2024-12-01,New York,Northeast,9427.0,117
+2024-12-01,Pennsylvania,Northeast,8419.0,108
+2024-12-01,Rhode Island,Northeast,605.0,73
+2024-12-01,Vermont,Northeast,563.0,36
+2024-12-01,Delaware,South Atlantic,802.0,18
+2024-12-01,District of Columbia,South Atlantic,274.0,5
+2024-12-01,Florida,South Atlantic,20441.0,245
+2024-12-01,Georgia,South Atlantic,10395.0,187
+2024-12-01,Maryland,South Atlantic,4548.0,51
+2024-12-01,North Carolina,South Atlantic,9536.0,87
+2024-12-01,South Carolina,South Atlantic,4993.0,130
+2024-12-01,Virginia,South Atlantic,7397.0,710
+2024-12-01,West Virginia,South Atlantic,1297.0,20
+2024-12-01,Illinois,North Central,8418.0,79
+2024-12-01,Indiana,North Central,6790.0,66
+2024-12-01,Iowa,North Central,2566.0,129
+2024-12-01,Kansas,North Central,2628.0,36
+2024-12-01,Michigan,North Central,7498.0,113
+2024-12-01,Minnesota,North Central,4634.0,112
+2024-12-01,Missouri,North Central,6768.0,162
+2024-12-01,Nebraska,North Central,1672.0,62
+2024-12-01,North Dakota,North Central,743.0,67
+2024-12-01,Ohio,North Central,9126.0,152
+2024-12-01,South Dakota,North Central,796.0,37
+2024-12-01,Wisconsin,North Central,5254.0,294
+2024-12-01,Alabama,South Gulf,5868.0,258
+2024-12-01,Arkansas,South Gulf,3128.0,10
+2024-12-01,Kentucky,South Gulf,3900.0,78
+2024-12-01,Louisiana,South Gulf,4690.0,44
+2024-12-01,Mississippi,South Gulf,3317.0,80
+2024-12-01,Oklahoma,South Gulf,3872.0,73
+2024-12-01,Tennessee,South Gulf,6732.0,66
+2024-12-01,Texas,South Gulf,25488.0,194
+2024-12-01,Alaska,West,406.0,91
+2024-12-01,Arizona,West,6126.0,227
+2024-12-01,California,West,24536.0,117
+2024-12-01,Colorado,West,4437.0,119
+2024-12-01,Hawaii,West,897.0,71
+2024-12-01,Idaho,West,1518.0,202
+2024-12-01,Montana,West,1004.0,82
+2024-12-01,Nevada,West,2294.0,84
+2024-12-01,New Mexico,West,2319.0,42
+2024-12-01,Oregon,West,2878.0,151
+2024-12-01,Utah,West,2738.0,
+2024-12-01,Washington,West,4513.0,177
+2024-12-01,Wyoming,West,701.0,118
+2025-01-01,Connecticut,Northeast,2521.0,24
+2025-01-01,Maine,Northeast,1082.0,127
+2025-01-01,Massachusetts,Northeast,4721.0,225
+2025-01-01,New Hampshire,Northeast,1002.0,56
+2025-01-01,New Jersey,Northeast,6224.0,72
+2025-01-01,New York,Northeast,8933.0,112
+2025-01-01,Pennsylvania,Northeast,7321.0,104
+2025-01-01,Rhode Island,Northeast,612.0,78
+2025-01-01,Vermont,Northeast,563.0,44
+2025-01-01,Delaware,South Atlantic,733.0,49
+2025-01-01,District of Columbia,South Atlantic,256.0,6
+2025-01-01,Florida,South Atlantic,20568.0,250
+2025-01-01,Georgia,South Atlantic,9758.0,191
+2025-01-01,Maryland,South Atlantic,4086.0,49
+2025-01-01,North Carolina,South Atlantic,8842.0,123
+2025-01-01,South Carolina,South Atlantic,4578.0,131
+2025-01-01,Virginia,South Atlantic,6545.0,697
+2025-01-01,West Virginia,South Atlantic,1159.0,21
+2025-01-01,Illinois,North Central,7763.0,56
+2025-01-01,Indiana,North Central,6300.0,62
+2025-01-01,Iowa,North Central,2407.0,135
+2025-01-01,Kansas,North Central,2282.0,93
+2025-01-01,Michigan,North Central,7092.0,111
+2025-01-01,Minnesota,North Central,4419.0,
+2025-01-01,Missouri,North Central,5736.0,154
+2025-01-01,Nebraska,North Central,1645.0,61
+2025-01-01,North Dakota,North Central,762.0,69
+2025-01-01,Ohio,North Central,8102.0,151
+2025-01-01,South Dakota,North Central,745.0,37
+2025-01-01,Wisconsin,North Central,5037.0,292
+2025-01-01,Alabama,South Gulf,5449.0,255
+2025-01-01,Arkansas,South Gulf,2911.0,10
+2025-01-01,Kentucky,South Gulf,3358.0,80
+2025-01-01,Louisiana,South Gulf,4267.0,41
+2025-01-01,Mississippi,South Gulf,3183.0,74
+2025-01-01,Oklahoma,South Gulf,3565.0,73
+2025-01-01,Tennessee,South Gulf,6321.0,49
+2025-01-01,Texas,South Gulf,24384.0,180
+2025-01-01,Alaska,West,455.0,96
+2025-01-01,Arizona,West,6323.0,188
+2025-01-01,California,West,26697.0,122
+2025-01-01,Colorado,West,4211.0,115
+2025-01-01,Hawaii,West,885.0,72
+2025-01-01,Idaho,West,1496.0,194
+2025-01-01,Montana,West,932.0,82
+2025-01-01,Nevada,West,2267.0,83
+2025-01-01,New Mexico,West,2129.0,42
+2025-01-01,Oregon,West,2800.0,138
+2025-01-01,Utah,West,2712.0,
+2025-01-01,Washington,West,4469.0,173
+2025-01-01,Wyoming,West,661.0,119
+2025-02-01,Connecticut,Northeast,2202.0,25
+2025-02-01,Maine,Northeast,950.0,128
+2025-02-01,Massachusetts,Northeast,4222.0,213
+2025-02-01,New Hampshire,Northeast,910.0,57
+2025-02-01,New Jersey,Northeast,5364.0,44
+2025-02-01,New York,Northeast,8117.0,112
+2025-02-01,Pennsylvania,Northeast,6846.0,102
+2025-02-01,Rhode Island,Northeast,538.0,64
+2025-02-01,Vermont,Northeast,493.0,40
+2025-02-01,Delaware,South Atlantic,677.0,56
+2025-02-01,District of Columbia,South Atlantic,257.0,
+2025-02-01,Florida,South Atlantic,19466.0,249
+2025-02-01,Georgia,South Atlantic,9852.0,190
+2025-02-01,Maryland,South Atlantic,3982.0,50
+2025-02-01,North Carolina,South Atlantic,8475.0,128
+2025-02-01,South Carolina,South Atlantic,4642.0,131
+2025-02-01,Virginia,South Atlantic,6184.0,691
+2025-02-01,West Virginia,South Atlantic,1119.0,27
+2025-02-01,Illinois,North Central,7469.0,42
+2025-02-01,Indiana,North Central,6103.0,63
+2025-02-01,Iowa,North Central,2150.0,88
+2025-02-01,Kansas,North Central,2127.0,94
+2025-02-01,Michigan,North Central,6773.0,103
+2025-02-01,Minnesota,North Central,3950.0,
+2025-02-01,Missouri,North Central,5554.0,161
+2025-02-01,Nebraska,North Central,1425.0,61
+2025-02-01,North Dakota,North Central,713.0,66
+2025-02-01,Ohio,North Central,7848.0,152
+2025-02-01,South Dakota,North Central,678.0,40
+2025-02-01,Wisconsin,North Central,4664.0,283
+2025-02-01,Alabama,South Gulf,5455.0,256
+2025-02-01,Arkansas,South Gulf,2727.0,10
+2025-02-01,Kentucky,South Gulf,3345.0,81
+2025-02-01,Louisiana,South Gulf,4243.0,45
+2025-02-01,Mississippi,South Gulf,3027.0,79
+2025-02-01,Oklahoma,South Gulf,3268.0,73
+2025-02-01,Tennessee,South Gulf,6157.0,55
+2025-02-01,Texas,South Gulf,23682.0,192
+2025-02-01,Alaska,West,448.0,96
+2025-02-01,Arizona,West,6003.0,199
+2025-02-01,California,West,24403.0,127
+2025-02-01,Colorado,West,4031.0,115
+2025-02-01,Hawaii,West,811.0,74
+2025-02-01,Idaho,West,1361.0,194
+2025-02-01,Montana,West,828.0,80
+2025-02-01,Nevada,West,2079.0,88
+2025-02-01,New Mexico,West,2027.0,43
+2025-02-01,Oregon,West,2556.0,148
+2025-02-01,Utah,West,2545.0,
+2025-02-01,Washington,West,3961.0,179
+2025-02-01,Wyoming,West,615.0,116
+2025-03-01,Connecticut,Northeast,2686.0,28
+2025-03-01,Maine,Northeast,1122.0,125
+2025-03-01,Massachusetts,Northeast,4962.0,214
+2025-03-01,New Hampshire,Northeast,1063.0,64
+2025-03-01,New Jersey,Northeast,6608.0,66
+2025-03-01,New York,Northeast,9603.0,118
+2025-03-01,Pennsylvania,Northeast,8292.0,103
+2025-03-01,Rhode Island,Northeast,624.0,58
+2025-03-01,Vermont,Northeast,567.0,45
+2025-03-01,Delaware,South Atlantic,788.0,55
+2025-03-01,District of Columbia,South Atlantic,309.0,
+2025-03-01,Florida,South Atlantic,21973.0,250
+2025-03-01,Georgia,South Atlantic,11089.0,197
+2025-03-01,Maryland,South Atlantic,4804.0,53
+2025-03-01,North Carolina,South Atlantic,10316.0,133
+2025-03-01,South Carolina,South Atlantic,5377.0,140
+2025-03-01,Virginia,South Atlantic,7627.0,691
+2025-03-01,West Virginia,South Atlantic,1361.0,27
+2025-03-01,Illinois,North Central,8752.0,72
+2025-03-01,Indiana,North Central,7192.0,64
+2025-03-01,Iowa,North Central,2672.0,131
+2025-03-01,Kansas,North Central,2693.0,93
+2025-03-01,Michigan,North Central,8007.0,109
+2025-03-01,Minnesota,North Central,4597.0,111
+2025-03-01,Missouri,North Central,6907.0,165
+2025-03-01,Nebraska,North Central,1731.0,63
+2025-03-01,North Dakota,North Central,838.0,66
+2025-03-01,Ohio,North Central,9366.0,148
+2025-03-01,South Dakota,North Central,823.0,40
+2025-03-01,Wisconsin,North Central,5271.0,300
+2025-03-01,Alabama,South Gulf,6182.0,253
+2025-03-01,Arkansas,South Gulf,3460.0,7
+2025-03-01,Kentucky,South Gulf,4147.0,79
+2025-03-01,Louisiana,South Gulf,4854.0,45
+2025-03-01,Mississippi,South Gulf,3555.0,79
+2025-03-01,Oklahoma,South Gulf,4083.0,71
+2025-03-01,Tennessee,South Gulf,7280.0,77
+2025-03-01,Texas,South Gulf,27017.0,155
+2025-03-01,Alaska,West,506.0,101
+2025-03-01,Arizona,West,6861.0,196
+2025-03-01,California,West,26898.0,127
+2025-03-01,Colorado,West,4712.0,116
+2025-03-01,Hawaii,West,899.0,72
+2025-03-01,Idaho,West,1640.0,203
+2025-03-01,Montana,West,1078.0,80
+2025-03-01,Nevada,West,2374.0,83
+2025-03-01,New Mexico,West,2401.0,42
+2025-03-01,Oregon,West,3027.0,154
+2025-03-01,Utah,West,3107.0,92
+2025-03-01,Washington,West,4816.0,179
+2025-03-01,Wyoming,West,715.0,124
+2025-04-01,Connecticut,Northeast,2708.0,28
+2025-04-01,Maine,Northeast,1174.0,124
+2025-04-01,Massachusetts,Northeast,4987.0,223
+2025-04-01,New Hampshire,Northeast,1084.0,124
+2025-04-01,New Jersey,Northeast,6546.0,61
+2025-04-01,New York,Northeast,9775.0,115
+2025-04-01,Pennsylvania,Northeast,8480.0,103
+2025-04-01,Rhode Island,Northeast,662.0,60
+2025-04-01,Vermont,Northeast,560.0,51
+2025-04-01,Delaware,South Atlantic,803.0,52
+2025-04-01,District of Columbia,South Atlantic,297.0,6
+2025-04-01,Florida,South Atlantic,20930.0,244
+2025-04-01,Georgia,South Atlantic,10862.0,196
+2025-04-01,Maryland,South Atlantic,4836.0,53
+2025-04-01,North Carolina,South Atlantic,10545.0,128
+2025-04-01,South Carolina,South Atlantic,5406.0,136
+2025-04-01,Virginia,South Atlantic,7646.0,696
+2025-04-01,West Virginia,South Atlantic,1379.0,32
+2025-04-01,Illinois,North Central,8850.0,80
+2025-04-01,Indiana,North Central,7278.0,58
+2025-04-01,Iowa,North Central,2890.0,41
+2025-04-01,Kansas,North Central,2788.0,89
+2025-04-01,Michigan,North Central,8348.0,104
+2025-04-01,Minnesota,North Central,4819.0,111
+2025-04-01,Missouri,North Central,6853.0,164
+2025-04-01,Nebraska,North Central,1833.0,60
+2025-04-01,North Dakota,North Central,859.0,63
+2025-04-01,Ohio,North Central,9574.0,149
+2025-04-01,South Dakota,North Central,860.0,41
+2025-04-01,Wisconsin,North Central,5598.0,291
+2025-04-01,Alabama,South Gulf,6283.0,257
+2025-04-01,Arkansas,South Gulf,3332.0,7
+2025-04-01,Kentucky,South Gulf,4148.0,73
+2025-04-01,Louisiana,South Gulf,4832.0,41
+2025-04-01,Mississippi,South Gulf,3497.0,82
+2025-04-01,Oklahoma,South Gulf,4006.0,71
+2025-04-01,Tennessee,South Gulf,7116.0,81
+2025-04-01,Texas,South Gulf,24613.0,224
+2025-04-01,Alaska,West,515.0,99
+2025-04-01,Arizona,West,6708.0,240
+2025-04-01,California,West,27950.0,117
+2025-04-01,Colorado,West,4484.0,115
+2025-04-01,Hawaii,West,887.0,72
+2025-04-01,Idaho,West,1728.0,192
+2025-04-01,Montana,West,1112.0,74
+2025-04-01,Nevada,West,2435.0,83
+2025-04-01,New Mexico,West,2350.0,41
+2025-04-01,Oregon,West,3155.0,156
+2025-04-01,Utah,West,3156.0,83
+2025-04-01,Washington,West,5008.0,176
+2025-04-01,Wyoming,West,752.0,120
+2025-05-01,Connecticut,Northeast,2768.0,23
+2025-05-01,Maine,Northeast,1334.0,125
+2025-05-01,Massachusetts,Northeast,5496.0,230
+2025-05-01,New Hampshire,Northeast,1192.0,125
+2025-05-01,New Jersey,Northeast,6910.0,59
+2025-05-01,New York,Northeast,10750.0,112
+2025-05-01,Pennsylvania,Northeast,8918.0,102
+2025-05-01,Rhode Island,Northeast,682.0,76
+2025-05-01,Vermont,Northeast,619.0,52
+2025-05-01,Delaware,South Atlantic,866.0,56
+2025-05-01,District of Columbia,South Atlantic,302.0,3
+2025-05-01,Florida,South Atlantic,20888.0,248
+2025-05-01,Georgia,South Atlantic,11093.0,189
+2025-05-01,Maryland,South Atlantic,5114.0,54
+2025-05-01,North Carolina,South Atlantic,11113.0,130
+2025-05-01,South Carolina,South Atlantic,5530.0,140
+2025-05-01,Virginia,South Atlantic,7929.0,689
+2025-05-01,West Virginia,South Atlantic,1419.0,33
+2025-05-01,Illinois,North Central,9390.0,
+2025-05-01,Indiana,North Central,7878.0,67
+2025-05-01,Iowa,North Central,3113.0,120
+2025-05-01,Kansas,North Central,2971.0,88
+2025-05-01,Michigan,North Central,9077.0,95
+2025-05-01,Minnesota,North Central,5401.0,107
+2025-05-01,Missouri,North Central,7372.0,162
+2025-05-01,Nebraska,North Central,2015.0,60
+2025-05-01,North Dakota,North Central,927.0,66
+2025-05-01,Ohio,North Central,10180.0,151
+2025-05-01,South Dakota,North Central,966.0,43
+2025-05-01,Wisconsin,North Central,6178.0,270
+2025-05-01,Alabama,South Gulf,6407.0,256
+2025-05-01,Arkansas,South Gulf,3667.0,8
+2025-05-01,Kentucky,South Gulf,4437.0,75
+2025-05-01,Louisiana,South Gulf,4846.0,43
+2025-05-01,Mississippi,South Gulf,3656.0,80
+2025-05-01,Oklahoma,South Gulf,4261.0,71
+2025-05-01,Tennessee,South Gulf,7461.0,88
+2025-05-01,Texas,South Gulf,27720.0,220
+2025-05-01,Alaska,West,509.0,92
+2025-05-01,Arizona,West,6954.0,188
+2025-05-01,California,West,28823.0,121
+2025-05-01,Colorado,West,4731.0,117
+2025-05-01,Hawaii,West,901.0,73
+2025-05-01,Idaho,West,1869.0,195
+2025-05-01,Montana,West,1265.0,77
+2025-05-01,Nevada,West,2536.0,83
+2025-05-01,New Mexico,West,2597.0,39
+2025-05-01,Oregon,West,3404.0,143
+2025-05-01,Utah,West,3255.0,79
+2025-05-01,Washington,West,5406.0,173
+2025-05-01,Wyoming,West,866.0,108
+2025-06-01,Connecticut,Northeast,2676.0,21
+2025-06-01,Maine,Northeast,1366.0,133
+2025-06-01,Massachusetts,Northeast,5357.0,229
+2025-06-01,New Hampshire,Northeast,1227.0,122
+2025-06-01,New Jersey,Northeast,6982.0,65
+2025-06-01,New York,Northeast,10794.0,119
+2025-06-01,Pennsylvania,Northeast,8784.0,105
+2025-06-01,Rhode Island,Northeast,690.0,70
+2025-06-01,Vermont,Northeast,633.0,35
+2025-06-01,Delaware,South Atlantic,842.0,60
+2025-06-01,District of Columbia,South Atlantic,292.0,
+2025-06-01,Florida,South Atlantic,19387.0,240
+2025-06-01,Georgia,South Atlantic,10592.0,191
+2025-06-01,Maryland,South Atlantic,5040.0,51
+2025-06-01,North Carolina,South Atlantic,11078.0,132
+2025-06-01,South Carolina,South Atlantic,5281.0,143
+2025-06-01,Virginia,South Atlantic,7638.0,684
+2025-06-01,West Virginia,South Atlantic,1342.0,30
+2025-06-01,Illinois,North Central,9055.0,64
+2025-06-01,Indiana,North Central,7523.0,63
+2025-06-01,Iowa,North Central,2943.0,121
+2025-06-01,Kansas,North Central,2868.0,83
+2025-06-01,Michigan,North Central,8934.0,102
+2025-06-01,Minnesota,North Central,5310.0,102
+2025-06-01,Missouri,North Central,7231.0,162
+2025-06-01,Nebraska,North Central,1990.0,60
+2025-06-01,North Dakota,North Central,895.0,61
+2025-06-01,Ohio,North Central,9717.0,144
+2025-06-01,South Dakota,North Central,981.0,41
+2025-06-01,Wisconsin,North Central,6103.0,275
+2025-06-01,Alabama,South Gulf,6171.0,252
+2025-06-01,Arkansas,South Gulf,3522.0,6
+2025-06-01,Kentucky,South Gulf,4269.0,75
+2025-06-01,Louisiana,South Gulf,4637.0,43
+2025-06-01,Mississippi,South Gulf,3489.0,79
+2025-06-01,Oklahoma,South Gulf,4000.0,71
+2025-06-01,Tennessee,South Gulf,7014.0,84
+2025-06-01,Texas,South Gulf,26088.0,205
+2025-06-01,Alaska,West,525.0,92
+2025-06-01,Arizona,West,6598.0,188
+2025-06-01,California,West,28723.0,120
+2025-06-01,Colorado,West,4842.0,116
+2025-06-01,Hawaii,West,860.0,71
+2025-06-01,Idaho,West,1867.0,183
+2025-06-01,Montana,West,1298.0,75
+2025-06-01,Nevada,West,2445.0,80
+2025-06-01,New Mexico,West,2530.0,38
+2025-06-01,Oregon,West,3438.0,146
+2025-06-01,Utah,West,3173.0,131
+2025-06-01,Washington,West,5576.0,171
+2025-06-01,Wyoming,West,939.0,108
+2025-07-01,Connecticut,Northeast,2687.0,24
+2025-07-01,Maine,Northeast,1463.0,127
+2025-07-01,Massachusetts,Northeast,5500.0,211
+2025-07-01,New Hampshire,Northeast,1348.0,122
+2025-07-01,New Jersey,Northeast,7312.0,57
+2025-07-01,New York,Northeast,11590.0,116
+2025-07-01,Pennsylvania,Northeast,9572.0,105
+2025-07-01,Rhode Island,Northeast,681.0,64
+2025-07-01,Vermont,Northeast,657.0,14
+2025-07-01,Delaware,South Atlantic,820.0,69
+2025-07-01,District of Columbia,South Atlantic,268.0,3
+2025-07-01,Florida,South Atlantic,19657.0,238
+2025-07-01,Georgia,South Atlantic,10914.0,193
+2025-07-01,Maryland,South Atlantic,5201.0,50
+2025-07-01,North Carolina,South Atlantic,11373.0,132
+2025-07-01,South Carolina,South Atlantic,5425.0,143
+2025-07-01,Virginia,South Atlantic,7840.0,678
+2025-07-01,West Virginia,South Atlantic,1407.0,29
+2025-07-01,Illinois,North Central,9180.0,65
+2025-07-01,Indiana,North Central,7952.0,61
+2025-07-01,Iowa,North Central,3066.0,111
+2025-07-01,Kansas,North Central,2811.0,87
+2025-07-01,Michigan,North Central,9387.0,96
+2025-07-01,Minnesota,North Central,5345.0,124
+2025-07-01,Missouri,North Central,7566.0,162
+2025-07-01,Nebraska,North Central,2028.0,60
+2025-07-01,North Dakota,North Central,913.0,62
+2025-07-01,Ohio,North Central,9947.0,89
+2025-07-01,South Dakota,North Central,1015.0,37
+2025-07-01,Wisconsin,North Central,6478.0,266
+2025-07-01,Alabama,South Gulf,6347.0,255
+2025-07-01,Arkansas,South Gulf,3546.0,9
+2025-07-01,Kentucky,South Gulf,4405.0,78
+2025-07-01,Louisiana,South Gulf,4703.0,43
+2025-07-01,Mississippi,South Gulf,3639.0,83
+2025-07-01,Oklahoma,South Gulf,4101.0,69
+2025-07-01,Tennessee,South Gulf,7370.0,98
+2025-07-01,Texas,South Gulf,26264.0,196
+2025-07-01,Alaska,West,538.0,85
+2025-07-01,Arizona,West,6645.0,181
+2025-07-01,California,West,30504.0,113
+2025-07-01,Colorado,West,5174.0,116
+2025-07-01,Hawaii,West,886.0,70
+2025-07-01,Idaho,West,1978.0,181
+2025-07-01,Montana,West,1370.0,77
+2025-07-01,Nevada,West,2509.0,82
+2025-07-01,New Mexico,West,2599.0,38
+2025-07-01,Oregon,West,3666.0,152
+2025-07-01,Utah,West,3213.0,144
+2025-07-01,Washington,West,6072.0,170
+2025-07-01,Wyoming,West,1022.0,100
+2025-08-01,Connecticut,Northeast,2804.0,33
+2025-08-01,Maine,Northeast,1509.0,130
+2025-08-01,Massachusetts,Northeast,5616.0,214
+2025-08-01,New Hampshire,Northeast,1330.0,122
+2025-08-01,New Jersey,Northeast,7097.0,62
+2025-08-01,New York,Northeast,11619.0,121
+2025-08-01,Pennsylvania,Northeast,9105.0,84
+2025-08-01,Rhode Island,Northeast,715.0,72
+2025-08-01,Vermont,Northeast,683.0,23
+2025-08-01,Delaware,South Atlantic,826.0,65
+2025-08-01,District of Columbia,South Atlantic,286.0,1
+2025-08-01,Florida,South Atlantic,19757.0,238
+2025-08-01,Georgia,South Atlantic,11007.0,191
+2025-08-01,Maryland,South Atlantic,5218.0,49
+2025-08-01,North Carolina,South Atlantic,11224.0,133
+2025-08-01,South Carolina,South Atlantic,5403.0,144
+2025-08-01,Virginia,South Atlantic,7946.0,678
+2025-08-01,West Virginia,South Atlantic,1468.0,27
+2025-08-01,Illinois,North Central,9342.0,56
+2025-08-01,Indiana,North Central,7900.0,62
+2025-08-01,Iowa,North Central,3053.0,110
+2025-08-01,Kansas,North Central,2840.0,82
+2025-08-01,Michigan,North Central,9381.0,100
+2025-08-01,Minnesota,North Central,5403.0,71
+2025-08-01,Missouri,North Central,7445.0,166
+2025-08-01,Nebraska,North Central,2003.0,60
+2025-08-01,North Dakota,North Central,887.0,56
+2025-08-01,Ohio,North Central,9992.0,141
+2025-08-01,South Dakota,North Central,1021.0,36
+2025-08-01,Wisconsin,North Central,6453.0,259
+2025-08-01,Alabama,South Gulf,6273.0,261
+2025-08-01,Arkansas,South Gulf,3547.0,11
+2025-08-01,Kentucky,South Gulf,4392.0,42
+2025-08-01,Louisiana,South Gulf,4747.0,43
+2025-08-01,Mississippi,South Gulf,3717.0,87
+2025-08-01,Oklahoma,South Gulf,4121.0,69
+2025-08-01,Tennessee,South Gulf,7424.0,91
+2025-08-01,Texas,South Gulf,27278.0,202
+2025-08-01,Alaska,West,549.0,97
+2025-08-01,Arizona,West,6504.0,186
+2025-08-01,California,West,28645.0,121
+2025-08-01,Colorado,West,5070.0,113
+2025-08-01,Hawaii,West,896.0,72
+2025-08-01,Idaho,West,1951.0,199
+2025-08-01,Montana,West,1379.0,81
+2025-08-01,Nevada,West,2568.0,87
+2025-08-01,New Mexico,West,2536.0,44
+2025-08-01,Oregon,West,3585.0,148
+2025-08-01,Utah,West,3175.0,
+2025-08-01,Washington,West,5965.0,163
+2025-08-01,Wyoming,West,987.0,111
+2025-09-01,Connecticut,Northeast,2651.0,41
+2025-09-01,Maine,Northeast,1371.0,126
+2025-09-01,Massachusetts,Northeast,5332.0,223
+2025-09-01,New Hampshire,Northeast,1198.0,115
+2025-09-01,New Jersey,Northeast,6624.0,66
+2025-09-01,New York,Northeast,10551.0,126
+2025-09-01,Pennsylvania,Northeast,8787.0,79
+2025-09-01,Rhode Island,Northeast,668.0,55
+2025-09-01,Vermont,Northeast,631.0,37
+2025-09-01,Delaware,South Atlantic,772.0,59
+2025-09-01,District of Columbia,South Atlantic,252.0,1
+2025-09-01,Florida,South Atlantic,19026.0,239
+2025-09-01,Georgia,South Atlantic,10721.0,186
+2025-09-01,Maryland,South Atlantic,4862.0,48
+2025-09-01,North Carolina,South Atlantic,10294.0,123
+2025-09-01,South Carolina,South Atlantic,5216.0,142
+2025-09-01,Virginia,South Atlantic,7467.0,683
+2025-09-01,West Virginia,South Atlantic,1388.0,26
+2025-09-01,Illinois,North Central,8857.0,66
+2025-09-01,Indiana,North Central,7539.0,60
+2025-09-01,Iowa,North Central,2899.0,123
+2025-09-01,Kansas,North Central,2774.0,81
+2025-09-01,Michigan,North Central,8693.0,100
+2025-09-01,Minnesota,North Central,4979.0,32
+2025-09-01,Missouri,North Central,7053.0,165
+2025-09-01,Nebraska,North Central,1905.0,62
+2025-09-01,North Dakota,North Central,859.0,52
+2025-09-01,Ohio,North Central,10245.0,137
+2025-09-01,South Dakota,North Central,915.0,35
+2025-09-01,Wisconsin,North Central,5988.0,276
+2025-09-01,Alabama,South Gulf,6152.0,272
+2025-09-01,Arkansas,South Gulf,3280.0,10
+2025-09-01,Kentucky,South Gulf,4193.0,75
+2025-09-01,Louisiana,South Gulf,4575.0,42
+2025-09-01,Mississippi,South Gulf,3537.0,85
+2025-09-01,Oklahoma,South Gulf,4064.0,68
+2025-09-01,Tennessee,South Gulf,7047.0,80
+2025-09-01,Texas,South Gulf,25774.0,199
+2025-09-01,Alaska,West,487.0,95
+2025-09-01,Arizona,West,6041.0,176
+2025-09-01,California,West,26566.0,94
+2025-09-01,Colorado,West,4762.0,114
+2025-09-01,Hawaii,West,853.0,74
+2025-09-01,Idaho,West,1821.0,181
+2025-09-01,Montana,West,1283.0,84
+2025-09-01,Nevada,West,2464.0,85
+2025-09-01,New Mexico,West,2397.0,38
+2025-09-01,Oregon,West,3245.0,151
+2025-09-01,Utah,West,3061.0,
+2025-09-01,Washington,West,5263.0,161
+2025-09-01,Wyoming,West,914.0,104
+2025-10-01,Connecticut,Northeast,2859.0,45
+2025-10-01,Maine,Northeast,1400.0,125
+2025-10-01,Massachusetts,Northeast,5521.0,226
+2025-10-01,New Hampshire,Northeast,1205.0,110
+2025-10-01,New Jersey,Northeast,6807.0,64
+2025-10-01,New York,Northeast,10723.0,123
+2025-10-01,Pennsylvania,Northeast,8920.0,83
+2025-10-01,Rhode Island,Northeast,688.0,65
+2025-10-01,Vermont,Northeast,661.0,35
+2025-10-01,Delaware,South Atlantic,834.0,53
+2025-10-01,District of Columbia,South Atlantic,296.0,1
+2025-10-01,Florida,South Atlantic,20710.0,233
+2025-10-01,Georgia,South Atlantic,11189.0,189
+2025-10-01,Maryland,South Atlantic,5074.0,46
+2025-10-01,North Carolina,South Atlantic,10744.0,125
+2025-10-01,South Carolina,South Atlantic,5479.0,137
+2025-10-01,Virginia,South Atlantic,7899.0,682
+2025-10-01,West Virginia,South Atlantic,1450.0,28
+2025-10-01,Illinois,North Central,9381.0,61
+2025-10-01,Indiana,North Central,7749.0,63
+2025-10-01,Iowa,North Central,3058.0,123
+2025-10-01,Kansas,North Central,2853.0,84
+2025-10-01,Michigan,North Central,8896.0,103
+2025-10-01,Minnesota,North Central,5465.0,76
+2025-10-01,Missouri,North Central,7368.0,160
+2025-10-01,Nebraska,North Central,1922.0,61
+2025-10-01,North Dakota,North Central,948.0,46
+2025-10-01,Ohio,North Central,10421.0,134
+2025-10-01,South Dakota,North Central,923.0,37
+2025-10-01,Wisconsin,North Central,6259.0,272
+2025-10-01,Alabama,South Gulf,6434.0,274
+2025-10-01,Arkansas,South Gulf,3544.0,8
+2025-10-01,Kentucky,South Gulf,4415.0,78
+2025-10-01,Louisiana,South Gulf,4914.0,43
+2025-10-01,Mississippi,South Gulf,3689.0,86
+2025-10-01,Oklahoma,South Gulf,4234.0,64
+2025-10-01,Tennessee,South Gulf,7459.0,74
+2025-10-01,Texas,South Gulf,27350.0,187
+2025-10-01,Alaska,West,483.0,92
+2025-10-01,Arizona,West,6773.0,158
+2025-10-01,California,West,26715.0,88
+2025-10-01,Colorado,West,4838.0,114
+2025-10-01,Hawaii,West,904.0,74
+2025-10-01,Idaho,West,1827.0,196
+2025-10-01,Montana,West,1209.0,80
+2025-10-01,Nevada,West,2516.0,84
+2025-10-01,New Mexico,West,2538.0,40
+2025-10-01,Oregon,West,3184.0,154
+2025-10-01,Utah,West,3221.0,123
+2025-10-01,Washington,West,5163.0,167
+2025-10-01,Wyoming,West,895.0,104
+2025-11-01,Connecticut,Northeast,2567.0,51
+2025-11-01,Maine,Northeast,1147.0,128
+2025-11-01,Massachusetts,Northeast,4911.0,227
+2025-11-01,New Hampshire,Northeast,1035.0,122
+2025-11-01,New Jersey,Northeast,5903.0,70
+2025-11-01,New York,Northeast,9344.0,127
+2025-11-01,Pennsylvania,Northeast,8160.0,89
+2025-11-01,Rhode Island,Northeast,619.0,60
+2025-11-01,Vermont,Northeast,531.0,33
+2025-11-01,Delaware,South Atlantic,771.0,53
+2025-11-01,District of Columbia,South Atlantic,239.0,3
+2025-11-01,Florida,South Atlantic,19655.0,234
+2025-11-01,Georgia,South Atlantic,10301.0,184
+2025-11-01,Maryland,South Atlantic,4626.0,52
+2025-11-01,North Carolina,South Atlantic,9701.0,127
+2025-11-01,South Carolina,South Atlantic,5097.0,141
+2025-11-01,Virginia,South Atlantic,7304.0,696
+2025-11-01,West Virginia,South Atlantic,1296.0,27
+2025-11-01,Illinois,North Central,8199.0,57
+2025-11-01,Indiana,North Central,6855.0,69
+2025-11-01,Iowa,North Central,2727.0,125
+2025-11-01,Kansas,North Central,2633.0,84
+2025-11-01,Michigan,North Central,7735.0,111
+2025-11-01,Minnesota,North Central,4837.0,71
+2025-11-01,Missouri,North Central,6717.0,160
+2025-11-01,Nebraska,North Central,1689.0,57
+2025-11-01,North Dakota,North Central,802.0,54
+2025-11-01,Ohio,North Central,9186.0,140
+2025-11-01,South Dakota,North Central,837.0,39
+2025-11-01,Wisconsin,North Central,5423.0,290
+2025-11-01,Alabama,South Gulf,5845.0,274
+2025-11-01,Arkansas,South Gulf,3235.0,8
+2025-11-01,Kentucky,South Gulf,3981.0,81
+2025-11-01,Louisiana,South Gulf,4575.0,45
+2025-11-01,Mississippi,South Gulf,3394.0,85
+2025-11-01,Oklahoma,South Gulf,3914.0,65
+2025-11-01,Tennessee,South Gulf,6822.0,60
+2025-11-01,Texas,South Gulf,25306.0,158
+2025-11-01,Alaska,West,410.0,87
+2025-11-01,Arizona,West,6264.0,157
+2025-11-01,California,West,24020.0,65
+2025-11-01,Colorado,West,4257.0,114
+2025-11-01,Hawaii,West,848.0,73
+2025-11-01,Idaho,West,1610.0,204
+2025-11-01,Montana,West,1058.0,81
+2025-11-01,Nevada,West,2269.0,83
+2025-11-01,New Mexico,West,2243.0,34
+2025-11-01,Oregon,West,2825.0,153
+2025-11-01,Utah,West,2855.0,125
+2025-11-01,Washington,West,4485.0,169
+2025-11-01,Wyoming,West,739.0,96
+2025-12-01,Connecticut,Northeast,2482.0,64
+2025-12-01,Maine,Northeast,1150.0,130
+2025-12-01,Massachusetts,Northeast,4991.0,225
+2025-12-01,New Hampshire,Northeast,1059.0,119
+2025-12-01,New Jersey,Northeast,6349.0,74
+2025-12-01,New York,Northeast,9200.0,123
+2025-12-01,Pennsylvania,Northeast,7792.0,84
+2025-12-01,Rhode Island,Northeast,614.0,64
+2025-12-01,Vermont,Northeast,555.0,36
+2025-12-01,Delaware,South Atlantic,789.0,61
+2025-12-01,District of Columbia,South Atlantic,284.0,
+2025-12-01,Florida,South Atlantic,21291.0,230
+2025-12-01,Georgia,South Atlantic,10087.0,186
+2025-12-01,Maryland,South Atlantic,4518.0,51
+2025-12-01,North Carolina,South Atlantic,10445.0,128
+2025-12-01,South Carolina,South Atlantic,5160.0,140
+2025-12-01,Virginia,South Atlantic,7359.0,697
+2025-12-01,West Virginia,South Atlantic,1385.0,19
+2025-12-01,Illinois,North Central,8304.0,61
+2025-12-01,Indiana,North Central,6956.0,73
+2025-12-01,Iowa,North Central,2608.0,140
+2025-12-01,Kansas,North Central,2571.0,86
+2025-12-01,Michigan,North Central,7532.0,116
+2025-12-01,Minnesota,North Central,4590.0,99
+2025-12-01,Missouri,North Central,7057.0,164
+2025-12-01,Nebraska,North Central,1711.0,59
+2025-12-01,North Dakota,North Central,732.0,73
+2025-12-01,Ohio,North Central,9297.0,138
+2025-12-01,South Dakota,North Central,799.0,39
+2025-12-01,Wisconsin,North Central,5321.0,295
+2025-12-01,Alabama,South Gulf,6046.0,272
+2025-12-01,Arkansas,South Gulf,3200.0,8
+2025-12-01,Kentucky,South Gulf,3946.0,79
+2025-12-01,Louisiana,South Gulf,4631.0,46
+2025-12-01,Mississippi,South Gulf,3435.0,81
+2025-12-01,Oklahoma,South Gulf,3908.0,63
+2025-12-01,Tennessee,South Gulf,6437.0,58
+2025-12-01,Texas,South Gulf,26012.0,188
+2025-12-01,Alaska,West,390.0,88
+2025-12-01,Arizona,West,5789.0,160
+2025-12-01,California,West,25168.0,120
+2025-12-01,Colorado,West,4444.0,117
+2025-12-01,Hawaii,West,920.0,72
+2025-12-01,Idaho,West,1567.0,200
+2025-12-01,Montana,West,998.0,82
+2025-12-01,Nevada,West,2383.0,87
+2025-12-01,New Mexico,West,2400.0,39
+2025-12-01,Oregon,West,2970.0,147
+2025-12-01,Utah,West,2879.0,151
+2025-12-01,Washington,West,4550.0,168
+2025-12-01,Wyoming,West,713.0,86
+2026-01-01,Connecticut,Northeast,2416.0,54
+2026-01-01,Maine,Northeast,1051.0,128
+2026-01-01,Massachusetts,Northeast,4601.0,216
+2026-01-01,New Hampshire,Northeast,994.0,129
+2026-01-01,New Jersey,Northeast,6003.0,69
+2026-01-01,New York,Northeast,8546.0,121
+2026-01-01,Pennsylvania,Northeast,6852.0,79
+2026-01-01,Rhode Island,Northeast,599.0,67
+2026-01-01,Vermont,Northeast,550.0,47
+2026-01-01,Delaware,South Atlantic,703.0,64
+2026-01-01,District of Columbia,South Atlantic,244.0,2
+2026-01-01,Florida,South Atlantic,21770.0,245
+2026-01-01,Georgia,South Atlantic,9620.0,185
+2026-01-01,Maryland,South Atlantic,4081.0,50
+2026-01-01,North Carolina,South Atlantic,9540.0,123
+2026-01-01,South Carolina,South Atlantic,4822.0,140
+2026-01-01,Virginia,South Atlantic,6485.0,693
+2026-01-01,West Virginia,South Atlantic,1289.0,17
+2026-01-01,Illinois,North Central,7693.0,60
+2026-01-01,Indiana,North Central,6375.0,69
+2026-01-01,Iowa,North Central,2460.0,140
+2026-01-01,Kansas,North Central,2373.0,15
+2026-01-01,Michigan,North Central,6900.0,115
+2026-01-01,Minnesota,North Central,4359.0,90
+2026-01-01,Missouri,North Central,6031.0,160
+2026-01-01,Nebraska,North Central,1687.0,56
+2026-01-01,North Dakota,North Central,736.0,77
+2026-01-01,Ohio,North Central,8229.0,138
+2026-01-01,South Dakota,North Central,763.0,41
+2026-01-01,Wisconsin,North Central,5047.0,288
+2026-01-01,Alabama,South Gulf,5717.0,269
+2026-01-01,Arkansas,South Gulf,2821.0,8
+2026-01-01,Kentucky,South Gulf,3398.0,82
+2026-01-01,Louisiana,South Gulf,4382.0,44
+2026-01-01,Mississippi,South Gulf,3214.0,77
+2026-01-01,Oklahoma,South Gulf,3728.0,56
+2026-01-01,Tennessee,South Gulf,5797.0,53
+2026-01-01,Texas,South Gulf,24178.0,176
+2026-01-01,Alaska,West,429.0,93
+2026-01-01,Arizona,West,5863.0,158
+2026-01-01,California,West,27151.0,116
+2026-01-01,Colorado,West,4395.0,116
+2026-01-01,Hawaii,West,917.0,72
+2026-01-01,Idaho,West,1519.0,198
+2026-01-01,Montana,West,994.0,74
+2026-01-01,Nevada,West,2333.0,86
+2026-01-01,New Mexico,West,2150.0,40
+2026-01-01,Oregon,West,2815.0,150
+2026-01-01,Utah,West,2938.0,146
+2026-01-01,Washington,West,4493.0,169
+2026-01-01,Wyoming,West,697.0,90
+2026-02-01,Connecticut,Northeast,2136.0,52
+2026-02-01,Maine,Northeast,1003.0,127
+2026-02-01,Massachusetts,Northeast,4192.0,222
+2026-02-01,New Hampshire,Northeast,949.0,126
+2026-02-01,New Jersey,Northeast,5321.0,43
+2026-02-01,New York,Northeast,7991.0,116
+2026-02-01,Pennsylvania,Northeast,6638.0,86
+2026-02-01,Rhode Island,Northeast,539.0,59
+2026-02-01,Vermont,Northeast,521.0,44
+2026-02-01,Delaware,South Atlantic,679.0,
+2026-02-01,District of Columbia,South Atlantic,270.0,3
+2026-02-01,Florida,South Atlantic,20275.0,245
+2026-02-01,Georgia,South Atlantic,9499.0,188
+2026-02-01,Maryland,South Atlantic,4018.0,49
+2026-02-01,North Carolina,South Atlantic,9207.0,132
+2026-02-01,South Carolina,South Atlantic,4668.0,143
+2026-02-01,Virginia,South Atlantic,6444.0,598
+2026-02-01,West Virginia,South Atlantic,1223.0,24
+2026-02-01,Illinois,North Central,7770.0,30
+2026-02-01,Indiana,North Central,6484.0,67
+2026-02-01,Iowa,North Central,2355.0,143
+2026-02-01,Kansas,North Central,2319.0,76
+2026-02-01,Michigan,North Central,7131.0,103
+2026-02-01,Minnesota,North Central,4207.0,81
+2026-02-01,Missouri,North Central,5825.0,159
+2026-02-01,Nebraska,North Central,1585.0,60
+2026-02-01,North Dakota,North Central,721.0,74
+2026-02-01,Ohio,North Central,8360.0,131
+2026-02-01,South Dakota,North Central,743.0,37
+2026-02-01,Wisconsin,North Central,4934.0,288
+2026-02-01,Alabama,South Gulf,5652.0,270
+2026-02-01,Arkansas,South Gulf,2969.0,6
+2026-02-01,Kentucky,South Gulf,3534.0,78
+2026-02-01,Louisiana,South Gulf,4283.0,45
+2026-02-01,Mississippi,South Gulf,3154.0,82
+2026-02-01,Oklahoma,South Gulf,3643.0,61
+2026-02-01,Tennessee,South Gulf,6059.0,57
+2026-02-01,Texas,South Gulf,24527.0,200
+2026-02-01,Alaska,West,419.0,94
+2026-02-01,Arizona,West,5548.0,196
+2026-02-01,California,West,25206.0,113
+2026-02-01,Colorado,West,4216.0,112
+2026-02-01,Hawaii,West,817.0,72
+2026-02-01,Idaho,West,1448.0,190
+2026-02-01,Montana,West,933.0,64
+2026-02-01,Nevada,West,2131.0,84
+2026-02-01,New Mexico,West,2069.0,36
+2026-02-01,Oregon,West,2720.0,135
+2026-02-01,Utah,West,2755.0,120
+2026-02-01,Washington,West,4230.0,170
+2026-02-01,Wyoming,West,664.0,83
+2026-03-01,Connecticut,Northeast,2678.0,60
+2026-03-01,Maine,Northeast,1145.0,126
+2026-03-01,Massachusetts,Northeast,5028.0,228
+2026-03-01,New Hampshire,Northeast,1092.0,104
+2026-03-01,New Jersey,Northeast,6706.0,70
+2026-03-01,New York,Northeast,9449.0,118
+2026-03-01,Pennsylvania,Northeast,7942.0,86
+2026-03-01,Rhode Island,Northeast,627.0,59
+2026-03-01,Vermont,Northeast,573.0,49
+2026-03-01,Delaware,South Atlantic,805.0,74
+2026-03-01,District of Columbia,South Atlantic,315.0,3
+2026-03-01,Florida,South Atlantic,22996.0,252
+2026-03-01,Georgia,South Atlantic,10768.0,191
+2026-03-01,Maryland,South Atlantic,4825.0,51
+2026-03-01,North Carolina,South Atlantic,11459.0,131
+2026-03-01,South Carolina,South Atlantic,5642.0,143
+2026-03-01,Virginia,South Atlantic,7716.0,596
+2026-03-01,West Virginia,South Atlantic,1478.0,
+2026-03-01,Illinois,North Central,8673.0,61
+2026-03-01,Indiana,North Central,7410.0,62
+2026-03-01,Iowa,North Central,2763.0,138
+2026-03-01,Kansas,North Central,2695.0,83
+2026-03-01,Michigan,North Central,8085.0,117
+2026-03-01,Minnesota,North Central,4651.0,108
+2026-03-01,Missouri,North Central,7014.0,164
+2026-03-01,Nebraska,North Central,1819.0,62
+2026-03-01,North Dakota,North Central,820.0,74
+2026-03-01,Ohio,North Central,9782.0,129
+2026-03-01,South Dakota,North Central,846.0,44
+2026-03-01,Wisconsin,North Central,5559.0,306
+2026-03-01,Alabama,South Gulf,6489.0,271
+2026-03-01,Arkansas,South Gulf,3472.0,8
+2026-03-01,Kentucky,South Gulf,4209.0,78
+2026-03-01,Louisiana,South Gulf,4871.0,45
+2026-03-01,Mississippi,South Gulf,3704.0,83
+2026-03-01,Oklahoma,South Gulf,4101.0,56
+2026-03-01,Tennessee,South Gulf,6930.0,54
+2026-03-01,Texas,South Gulf,27546.0,159
+2026-03-01,Alaska,West,468.0,95
+2026-03-01,Arizona,West,6464.0,436
+2026-03-01,California,West,28240.0,108
+2026-03-01,Colorado,West,4814.0,117
+2026-03-01,Hawaii,West,874.0,68
+2026-03-01,Idaho,West,1681.0,196
+2026-03-01,Montana,West,1093.0,83
+2026-03-01,Nevada,West,2523.0,80
+2026-03-01,New Mexico,West,2461.0,41
+2026-03-01,Oregon,West,3124.0,152
+2026-03-01,Utah,West,3239.0,131
+2026-03-01,Washington,West,4805.0,170
+2026-03-01,Wyoming,West,739.0,94
+2026-04-01,Connecticut,Northeast,2706.0,66
+2026-04-01,Maine,Northeast,1185.0,153
+2026-04-01,Massachusetts,Northeast,5057.0,225
+2026-04-01,New Hampshire,Northeast,1109.0,117
+2026-04-01,New Jersey,Northeast,6708.0,64
+2026-04-01,New York,Northeast,9697.0,119
+2026-04-01,Pennsylvania,Northeast,8166.0,87
+2026-04-01,Rhode Island,Northeast,671.0,58
+2026-04-01,Vermont,Northeast,558.0,56
+2026-04-01,Delaware,South Atlantic,826.0,
+2026-04-01,District of Columbia,South Atlantic,317.0,4
+2026-04-01,Florida,South Atlantic,21751.0,252
+2026-04-01,Georgia,South Atlantic,10474.0,196
+2026-04-01,Maryland,South Atlantic,4884.0,49
+2026-04-01,North Carolina,South Atlantic,11606.0,131
+2026-04-01,South Carolina,South Atlantic,5529.0,139
+2026-04-01,Virginia,South Atlantic,7724.0,601
+2026-04-01,West Virginia,South Atlantic,1484.0,26
+2026-04-01,Illinois,North Central,8846.0,60
+2026-04-01,Indiana,North Central,7569.0,70
+2026-04-01,Iowa,North Central,2942.0,126
+2026-04-01,Kansas,North Central,2805.0,83
+2026-04-01,Michigan,North Central,8551.0,
+2026-04-01,Minnesota,North Central,4861.0,101
+2026-04-01,Missouri,North Central,6964.0,162
+2026-04-01,Nebraska,North Central,1851.0,56
+2026-04-01,North Dakota,North Central,847.0,75
+2026-04-01,Ohio,North Central,10102.0,128
+2026-04-01,South Dakota,North Central,867.0,41
+2026-04-01,Wisconsin,North Central,5747.0,297
+2026-04-01,Alabama,South Gulf,6396.0,276
+2026-04-01,Arkansas,South Gulf,3409.0,7
+2026-04-01,Kentucky,South Gulf,4291.0,77
+2026-04-01,Louisiana,South Gulf,4691.0,43
+2026-04-01,Mississippi,South Gulf,3529.0,86
+2026-04-01,Oklahoma,South Gulf,4066.0,51
+2026-04-01,Tennessee,South Gulf,6859.0,56
+2026-04-01,Texas,South Gulf,24691.0,220
+2026-04-01,Alaska,West,487.0,94
+2026-04-01,Arizona,West,6194.0,409
+2026-04-01,California,West,28191.0,94
+2026-04-01,Colorado,West,4556.0,115
+2026-04-01,Hawaii,West,892.0,71
+2026-04-01,Idaho,West,1736.0,191
+2026-04-01,Montana,West,1117.0,77
+2026-04-01,Nevada,West,2487.0,81
+2026-04-01,New Mexico,West,2361.0,43
+2026-04-01,Oregon,West,3163.0,154
+2026-04-01,Utah,West,3208.0,141
+2026-04-01,Washington,West,4972.0,172
+2026-04-01,Wyoming,West,770.0,83
+2026-05-01,Connecticut,Northeast,2764.0,75
+2026-05-01,Maine,Northeast,1335.0,153
+2026-05-01,Massachusetts,Northeast,5506.0,231
+2026-05-01,New Hampshire,Northeast,1211.0,120
+2026-05-01,New Jersey,Northeast,6983.0,64
+2026-05-01,New York,Northeast,10554.0,122
+2026-05-01,Pennsylvania,Northeast,8497.0,85
+2026-05-01,Rhode Island,Northeast,682.0,61
+2026-05-01,Vermont,Northeast,617.0,55
+2026-05-01,Delaware,South Atlantic,870.0,
+2026-05-01,District of Columbia,South Atlantic,317.0,4
+2026-05-01,Florida,South Atlantic,21599.0,260
+2026-05-01,Georgia,South Atlantic,10540.0,196
+2026-05-01,Maryland,South Atlantic,5075.0,52
+2026-05-01,North Carolina,South Atlantic,11868.0,128
+2026-05-01,South Carolina,South Atlantic,5566.0,145
+2026-05-01,Virginia,South Atlantic,7868.0,596
+2026-05-01,West Virginia,South Atlantic,1495.0,26
+2026-05-01,Illinois,North Central,9178.0,59
+2026-05-01,Indiana,North Central,7927.0,66
+2026-05-01,Iowa,North Central,3116.0,117
+2026-05-01,Kansas,North Central,2957.0,82
+2026-05-01,Michigan,North Central,8998.0,102
+2026-05-01,Minnesota,North Central,5402.0,75
+2026-05-01,Missouri,North Central,7351.0,164
+2026-05-01,Nebraska,North Central,1983.0,59
+2026-05-01,North Dakota,North Central,916.0,69
+2026-05-01,Ohio,North Central,10284.0,130
+2026-05-01,South Dakota,North Central,982.0,44
+2026-05-01,Wisconsin,North Central,6292.0,271
+2026-05-01,Alabama,South Gulf,6406.0,281
+2026-05-01,Arkansas,South Gulf,3552.0,7
+2026-05-01,Kentucky,South Gulf,4389.0,75
+2026-05-01,Louisiana,South Gulf,4680.0,42
+2026-05-01,Mississippi,South Gulf,3629.0,82
+2026-05-01,Oklahoma,South Gulf,4194.0,55
+2026-05-01,Tennessee,South Gulf,7023.0,55
+2026-05-01,Texas,South Gulf,27796.0,222
+2026-05-01,Alaska,West,480.0,89
+2026-05-01,Arizona,West,6285.0,412
+2026-05-01,California,West,29281.0,112
+2026-05-01,Colorado,West,4681.0,117
+2026-05-01,Hawaii,West,909.0,73
+2026-05-01,Idaho,West,1866.0,30
+2026-05-01,Montana,West,1256.0,82
+2026-05-01,Nevada,West,2565.0,86
+2026-05-01,New Mexico,West,2572.0,41
+2026-05-01,Oregon,West,3385.0,151
+2026-05-01,Utah,West,3283.0,145
+2026-05-01,Washington,West,5370.0,169
+2026-05-01,Wyoming,West,875.0,85
+2026-06-01,Connecticut,Northeast,2711.0,73
+2026-06-01,Maine,Northeast,1386.0,153
+2026-06-01,Massachusetts,Northeast,5411.0,33
+2026-06-01,New Hampshire,Northeast,1270.0,128
+2026-06-01,New Jersey,Northeast,7183.0,60
+2026-06-01,New York,Northeast,10794.0,122
+2026-06-01,Pennsylvania,Northeast,8517.0,87
+2026-06-01,Rhode Island,Northeast,706.0,61
+2026-06-01,Vermont,Northeast,633.0,54
+2026-06-01,Delaware,South Atlantic,868.0,
+2026-06-01,District of Columbia,South Atlantic,282.0,6
+2026-06-01,Florida,South Atlantic,20380.0,247
+2026-06-01,Georgia,South Atlantic,10256.0,191
+2026-06-01,Maryland,South Atlantic,5114.0,48
+2026-06-01,North Carolina,South Atlantic,12023.0,133
+2026-06-01,South Carolina,South Atlantic,5443.0,148
+2026-06-01,Virginia,South Atlantic,7704.0,590
+2026-06-01,West Virginia,South Atlantic,1453.0,26
+2026-06-01,Illinois,North Central,9036.0,53
+2026-06-01,Indiana,North Central,7732.0,66
+2026-06-01,Iowa,North Central,3021.0,117
+2026-06-01,Kansas,North Central,2858.0,76
+2026-06-01,Michigan,North Central,8969.0,109
+2026-06-01,Minnesota,North Central,5441.0,57
+2026-06-01,Missouri,North Central,7360.0,164
+2026-06-01,Nebraska,North Central,2000.0,59
+2026-06-01,North Dakota,North Central,895.0,69
+2026-06-01,Ohio,North Central,10048.0,122
+2026-06-01,South Dakota,North Central,990.0,45
+2026-06-01,Wisconsin,North Central,6233.0,271
+2026-06-01,Alabama,South Gulf,6278.0,271
+2026-06-01,Arkansas,South Gulf,3533.0,
+2026-06-01,Kentucky,South Gulf,4317.0,75
+2026-06-01,Louisiana,South Gulf,4568.0,45
+2026-06-01,Mississippi,South Gulf,3535.0,83
+2026-06-01,Oklahoma,South Gulf,4011.0,63
+2026-06-01,Tennessee,South Gulf,6719.0,51
+2026-06-01,Texas,South Gulf,26454.0,212
+2026-06-01,Alaska,West,505.0,82
+2026-06-01,Arizona,West,6079.0,421
+2026-06-01,California,West,29479.0,91
+2026-06-01,Colorado,West,4882.0,116
+2026-06-01,Hawaii,West,887.0,74
+2026-06-01,Idaho,West,1870.0,182
+2026-06-01,Montana,West,1282.0,83
+2026-06-01,Nevada,West,2514.0,80
+2026-06-01,New Mexico,West,2552.0,40
+2026-06-01,Oregon,West,3443.0,153
+2026-06-01,Utah,West,3238.0,144
+2026-06-01,Washington,West,5630.0,169
+2026-06-01,Wyoming,West,956.0,78
+2026-07-01,Connecticut,Northeast,2667.0,79
+2026-07-01,Maine,Northeast,1475.0,152
+2026-07-01,Massachusetts,Northeast,5490.0,217
+2026-07-01,New Hampshire,Northeast,1370.0,124
+2026-07-01,New Jersey,Northeast,7219.0,62
+2026-07-01,New York,Northeast,11330.0,113
+2026-07-01,Pennsylvania,Northeast,9020.0,88
+2026-07-01,Rhode Island,Northeast,672.0,51
+2026-07-01,Vermont,Northeast,646.0,50
+2026-07-01,Delaware,South Atlantic,850.0,87
+2026-07-01,District of Columbia,South Atlantic,283.0,3
+2026-07-01,Florida,South Atlantic,20496.0,251
+2026-07-01,Georgia,South Atlantic,10448.0,192
+2026-07-01,Maryland,South Atlantic,5232.0,47
+2026-07-01,North Carolina,South Atlantic,12236.0,135
+2026-07-01,South Carolina,South Atlantic,5550.0,142
+2026-07-01,Virginia,South Atlantic,7837.0,595
+2026-07-01,West Virginia,South Atlantic,1513.0,22
+2026-07-01,Illinois,North Central,9166.0,53
+2026-07-01,Indiana,North Central,8196.0,66
+2026-07-01,Iowa,North Central,3127.0,109
+2026-07-01,Kansas,North Central,2788.0,78
+2026-07-01,Michigan,North Central,9277.0,107
+2026-07-01,Minnesota,North Central,5486.0,82
+2026-07-01,Missouri,North Central,7643.0,160
+2026-07-01,Nebraska,North Central,2045.0,63
+2026-07-01,North Dakota,North Central,919.0,62
+2026-07-01,Ohio,North Central,10372.0,77
+2026-07-01,South Dakota,North Central,1022.0,42
+2026-07-01,Wisconsin,North Central,6623.0,262
+2026-07-01,Alabama,South Gulf,6448.0,276
+2026-07-01,Arkansas,South Gulf,3558.0,9
+2026-07-01,Kentucky,South Gulf,4435.0,79
+2026-07-01,Louisiana,South Gulf,4737.0,46
+2026-07-01,Mississippi,South Gulf,3711.0,90
+2026-07-01,Oklahoma,South Gulf,4145.0,59
+2026-07-01,Tennessee,South Gulf,6991.0,50
+2026-07-01,Texas,South Gulf,26814.0,209
+2026-07-01,Alaska,West,513.0,77
+2026-07-01,Arizona,West,6085.0,311
+2026-07-01,California,West,30806.0,51
+2026-07-01,Colorado,West,5119.0,114
+2026-07-01,Hawaii,West,904.0,73
+2026-07-01,Idaho,West,1976.0,168
+2026-07-01,Montana,West,1367.0,84
+2026-07-01,Nevada,West,2556.0,81
+2026-07-01,New Mexico,West,2610.0,39
+2026-07-01,Oregon,West,3658.0,153
+2026-07-01,Utah,West,3257.0,144
+2026-07-01,Washington,West,6057.0,170
+2026-07-01,Wyoming,West,1027.0,81
+2026-08-01,Connecticut,Northeast,2762.0,82
+2026-08-01,Maine,Northeast,1490.0,152
+2026-08-01,Massachusetts,Northeast,5619.0,210
+2026-08-01,New Hampshire,Northeast,1335.0,121
+2026-08-01,New Jersey,Northeast,7068.0,62
+2026-08-01,New York,Northeast,11353.0,122
+2026-08-01,Pennsylvania,Northeast,8512.0,104
+2026-08-01,Rhode Island,Northeast,705.0,58
+2026-08-01,Vermont,Northeast,666.0,45
+2026-08-01,Delaware,South Atlantic,852.0,83
+2026-08-01,District of Columbia,South Atlantic,302.0,6
+2026-08-01,Florida,South Atlantic,20434.0,243
+2026-08-01,Georgia,South Atlantic,10546.0,189
+2026-08-01,Maryland,South Atlantic,5152.0,48
+2026-08-01,North Carolina,South Atlantic,12051.0,136
+2026-08-01,South Carolina,South Atlantic,5544.0,139
+2026-08-01,Virginia,South Atlantic,7822.0,594
+2026-08-01,West Virginia,South Atlantic,1531.0,23
+2026-08-01,Illinois,North Central,9261.0,53
+2026-08-01,Indiana,North Central,8019.0,65
+2026-08-01,Iowa,North Central,3075.0,112
+2026-08-01,Kansas,North Central,2774.0,76
+2026-08-01,Michigan,North Central,9157.0,107
+2026-08-01,Minnesota,North Central,5442.0,46
+2026-08-01,Missouri,North Central,7320.0,161
+2026-08-01,Nebraska,North Central,2025.0,60
+2026-08-01,North Dakota,North Central,877.0,61
+2026-08-01,Ohio,North Central,10140.0,127
+2026-08-01,South Dakota,North Central,1003.0,40
+2026-08-01,Wisconsin,North Central,6480.0,245
+2026-08-01,Alabama,South Gulf,6329.0,275
+2026-08-01,Arkansas,South Gulf,3428.0,10
+2026-08-01,Kentucky,South Gulf,4374.0,42
+2026-08-01,Louisiana,South Gulf,4705.0,45
+2026-08-01,Mississippi,South Gulf,3706.0,89
+2026-08-01,Oklahoma,South Gulf,4139.0,58
+2026-08-01,Tennessee,South Gulf,6915.0,47
+2026-08-01,Texas,South Gulf,27592.0,216
+2026-08-01,Alaska,West,521.0,87
+2026-08-01,Arizona,West,5934.0,318
+2026-08-01,California,West,29235.0,83
+2026-08-01,Colorado,West,5012.0,114
+2026-08-01,Hawaii,West,888.0,73
+2026-08-01,Idaho,West,1937.0,188
+2026-08-01,Montana,West,1360.0,84
+2026-08-01,Nevada,West,2605.0,86
+2026-08-01,New Mexico,West,2493.0,42
+2026-08-01,Oregon,West,3561.0,141
+2026-08-01,Utah,West,3201.0,146
+2026-08-01,Washington,West,5884.0,170
+2026-08-01,Wyoming,West,986.0,89
