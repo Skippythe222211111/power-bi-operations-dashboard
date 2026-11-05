@@ -6,7 +6,7 @@
     "y": 124,
     "z": 0,
     "width": 616,
-    "height": 286
+    "height": 300
   },
   "visual": {
     "visualType": "clusteredBarChart",
@@ -41,10 +41,10 @@
                       "Entity": "VMT"
                     }
                   },
-                  "Property": "Total VMT"
+                  "Property": "VMT Top10"
                 }
               },
-              "queryRef": "VMT.Total VMT",
+              "queryRef": "VMT.VMT Top10",
               "nativeQueryRef": "VMT, млн"
             }
           ]
@@ -60,7 +60,7 @@
                     "Entity": "VMT"
                   }
                 },
-                "Property": "Total VMT"
+                "Property": "VMT Top10"
               }
             },
             "direction": "Descending"

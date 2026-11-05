@@ -3,10 +3,10 @@
   "name": "v07",
   "position": {
     "x": 16,
-    "y": 424,
+    "y": 436,
     "z": 0,
     "width": 420,
-    "height": 280
+    "height": 268
   },
   "visual": {
     "visualType": "donutChart",

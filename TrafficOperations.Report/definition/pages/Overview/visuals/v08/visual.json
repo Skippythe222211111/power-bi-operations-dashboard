@@ -3,10 +3,10 @@
   "name": "v08",
   "position": {
     "x": 448,
-    "y": 424,
+    "y": 436,
     "z": 0,
     "width": 816,
-    "height": 280
+    "height": 268
   },
   "visual": {
     "visualType": "tableEx",
@@ -58,6 +58,24 @@
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "DimDate"
+                  }
+                },
+                "Property": "month_label"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
       }
     },
     "drillFilterOtherVisuals": true,

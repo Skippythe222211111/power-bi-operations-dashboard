@@ -1,92 +1,97 @@
 table VMT
-	lineageTag: ed3c5bc9-06f6-451a-a9ac-cbc26c3f718a
+	lineageTag: bdc0e7f7-c004-4420-81cb-0e0ff7768af3
 
 	column month
 		dataType: dateTime
 		formatString: yyyy-mm
-		lineageTag: 8dde98cd-ae29-4c15-ac76-dd27ac31812b
+		lineageTag: 15eac216-e199-4802-9a39-13e58f7bc2a7
 		summarizeBy: none
 		sourceColumn: month
 
 	column state
 		dataType: string
-		lineageTag: 7d96ed0b-f84a-466b-bf75-31accc3eab12
+		lineageTag: 964c5280-2ef0-4789-8447-0118b7762856
 		summarizeBy: none
 		sourceColumn: state
 
 	column region
 		dataType: string
-		lineageTag: a4301cc9-7b27-4aad-b432-13e9f8f3b03d
+		lineageTag: b3a44b31-2022-4344-8297-5e7abe5f451e
 		summarizeBy: none
 		sourceColumn: region
 
 	column vmt_millions
 		dataType: double
 		formatString: #,0.0
-		lineageTag: 2618dce4-56f9-4bc9-9627-23cc04cb012a
+		lineageTag: 97daa3ca-4ff7-46e9-b842-2496577245ee
 		summarizeBy: sum
 		sourceColumn: vmt_millions
 
 	column stations
 		dataType: int64
 		formatString: #,0
-		lineageTag: 4699e84c-19ce-4eea-a330-c3b962eaeda3
+		lineageTag: c0303d38-a42f-4603-981b-6e756a48d4e8
 		summarizeBy: none
 		sourceColumn: stations
 
 	measure 'Total VMT' = SUM ( VMT[vmt_millions] )
 		formatString: #,0.0
-		lineageTag: b89ff1eb-506b-4eb6-84cb-0ddc4842e9f1
+		lineageTag: 345d49a7-5d1b-442c-b2ed-36c700e112de
 
 
-	measure 'VMT L12M' = CALCULATE ( [Total VMT], DATESINPERIOD ( DimDate[date], MAX ( VMT[month] ), -12, MONTH ) )
+	measure 'VMT L12M' = VAR EndMonth = MAX ( VMT[month] ) VAR Period = DATESINPERIOD ( DimDate[date], EndMonth, -12, MONTH ) VAR MonthsWithData = CALCULATE ( DISTINCTCOUNT ( VMT[month] ), Period ) RETURN IF ( MonthsWithData < 12, BLANK (), CALCULATE ( [Total VMT], Period ) )
 		formatString: #,0.0
-		lineageTag: c25b2e8c-bde4-4927-9de8-756d3abba9b4
+		lineageTag: ec68ba1f-de8f-4d39-b173-d965b17e05ce
 
 
-	measure 'VMT Prev12M' = CALCULATE ( [Total VMT], DATESINPERIOD ( DimDate[date], MAX ( VMT[month] ), -24, MONTH ) ) - [VMT L12M]
+	measure 'VMT Prev12M' = VAR EndMonth = MAX ( VMT[month] ) VAR Period = DATESINPERIOD ( DimDate[date], EndMonth, -24, MONTH ) VAR MonthsWithData = CALCULATE ( DISTINCTCOUNT ( VMT[month] ), Period ) RETURN IF ( MonthsWithData < 24, BLANK (), CALCULATE ( [Total VMT], Period ) - [VMT L12M] )
 		formatString: #,0.0
-		lineageTag: e1056f54-6dae-4145-8c40-e520300af100
+		lineageTag: 61ed8b30-a6bd-4e05-a261-fc69b8e88b95
 
 
 	measure 'VMT YoY %' = DIVIDE ( [VMT L12M] - [VMT Prev12M], [VMT Prev12M] )
 		formatString: 0.0%
-		lineageTag: c5dc9428-31e3-4c0c-8268-8ee8d1915d3d
+		lineageTag: f55767cb-bf0b-48a4-990d-08acf9c3c55e
 
 
 	measure 'VMT YoY Month %' = DIVIDE ( [Total VMT] - [VMT LY], [VMT LY] )
 		formatString: 0.0%
-		lineageTag: 2dc062a5-37d5-4412-8adc-def92afc0915
+		lineageTag: 959b53d7-1e69-46aa-973b-7d6e8c1e4a1d
 
 
 	measure 'VMT LY' = CALCULATE ( [Total VMT], SAMEPERIODLASTYEAR ( DimDate[date] ) )
 		formatString: #,0.0
-		lineageTag: 44c2688b-3ded-4fe9-99b4-353dfc2f8eaa
+		lineageTag: 3249db6c-df4d-4c6d-90b7-bf46eb67c498
 
 
 	measure 'Avg Monthly VMT' = AVERAGEX ( VALUES ( DimDate[date] ), [Total VMT] )
 		formatString: #,0.0
-		lineageTag: 60717282-e917-48ad-af87-da55522650ef
+		lineageTag: e3f9ae9b-5e9c-4787-b20c-d2d73aabf84f
 
 
 	measure 'States Reporting' = DISTINCTCOUNT ( VMT[state] )
 		formatString: #,0
-		lineageTag: ebac58be-9628-43a9-a7e1-d05006108f12
+		lineageTag: e5f6b109-dbe3-4706-81cd-026b58841a45
 
 
 	measure 'VMT Seasonality' = DIVIDE ( [Total VMT], CALCULATE ( [Total VMT], ALL ( DimDate ) ) )
 		formatString: 0.0%
-		lineageTag: ca309f8c-eabe-4277-bf4d-bba9939d2474
+		lineageTag: a5f8b7f8-1f18-45d3-b72a-26a71e52de9c
 
 
 	measure 'VMT Share' = DIVIDE ( [Total VMT], CALCULATE ( [Total VMT], ALLSELECTED ( DimState ) ) )
 		formatString: 0.0%
-		lineageTag: b28ef46b-3553-4c7b-92ed-059ee7d8581b
+		lineageTag: 03e45e56-cd37-4661-a6f1-7dc0d19d6856
+
+
+	measure 'VMT Top10' = VAR StateRank = RANKX ( ALLSELECTED ( DimState[state] ), [Total VMT] ) RETURN IF ( StateRank <= 10, [Total VMT] )
+		formatString: #,0.0
+		lineageTag: 64f1feee-3b07-4cb6-83f4-53a4fade00af
 
 
 	measure 'Monitoring Stations' = SUM ( VMT[stations] )
 		formatString: #,0
-		lineageTag: 48e5da9e-92eb-4119-a40d-282aee648936
+		lineageTag: d3919d43-4c14-4230-b8b8-d9d36a9a2521
 
 	partition VMT = m
 		mode: import

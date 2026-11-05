@@ -150,7 +150,7 @@ def build_pages() -> list[dict]:
         [
             visual("v01", "card", 16, 16, 300, 92,
                    {"Values": [measure("VMT L12M", "VMT за 12 мес., млн")]},
-                   "VMT за последние 12 месяцев, млн"),
+                   "VMT за 12 мес., млн"),
             visual("v02", "card", 328, 16, 300, 92,
                    {"Values": [measure("VMT YoY %", "YoY, %", "0.0%")]},
                    "12 мес. к предыдущим 12 мес."),
@@ -163,17 +163,20 @@ def build_pages() -> list[dict]:
             visual("v05", "lineChart", 16, 124, 620, 286,
                    {"Category": [month_axis], "Y": [measure("Total VMT", "VMT, млн")]},
                    "Национальный VMT по месяцам, млн"),
-            visual("v06", "clusteredBarChart", 648, 124, 616, 286,
-                   {"Category": [state_axis], "Y": [measure("Total VMT", "VMT, млн")]},
-                   "Топ-10 штатов по VMT, млн", sort=sort_by("Total VMT"), show_legend=False),
-            visual("v07", "donutChart", 16, 424, 420, 280,
+            visual("v06", "clusteredBarChart", 648, 124, 616, 300,
+                   {"Category": [state_axis], "Y": [measure("VMT Top10", "VMT, млн")]},
+                   "Топ-10 штатов по VMT, млн", sort=sort_by("VMT Top10"), show_legend=False),
+            visual("v07", "donutChart", 16, 436, 420, 268,
                    {"Category": [region_axis], "Y": [measure("Total VMT", "VMT, млн")]},
                    "Доля регионов в VMT"),
-            visual("v08", "tableEx", 448, 424, 816, 280,
+            visual("v08", "tableEx", 448, 436, 816, 268,
                    {"Values": [col("DimDate", "month_label", active=False),
                                measure("Total VMT", "VMT, млн"),
                                measure("VMT LY", "VMT год назад, млн")]},
-                   "Последние месяцы: VMT и год назад", hide_total=True),
+                   "Последние месяцы: VMT и год назад", hide_total=True,
+                   sort={"field": {"Column": {"Expression": {"SourceRef": {"Entity": "DimDate"}},
+                                              "Property": "month_label"}},
+                         "direction": "Descending"}),
         ],
     )
 
@@ -207,7 +210,7 @@ def build_pages() -> list[dict]:
                                measure("Total VMT", "VMT, млн"),
                                measure("VMT YoY %", "YoY, %", "0.0%"),
                                measure("VMT Share", "Доля в VMT", "0.0%")]},
-                   "Штаты: объём, динамика, доля"),
+                   "Штаты: объём, динамика, доля", sort=sort_by("Total VMT")),
             visual("v14", "clusteredBarChart", 296, 424, 968, 280,
                    {"Category": [state_axis], "Y": [measure("VMT YoY %", "YoY, %", "0.0%")]},
                    "Рост год к году по штатам, %", sort=sort_by("VMT YoY %"), show_legend=False),
@@ -233,10 +236,17 @@ def tmdl_column(name: str, data_type: str, source: str | None = None, fmt: str |
 MEASURES = [
     ("Total VMT", "SUM ( VMT[vmt_millions] )", "#,0.0"),
     ("VMT L12M",
-     "CALCULATE ( [Total VMT], DATESINPERIOD ( DimDate[date], MAX ( VMT[month] ), -12, MONTH ) )",
+     "VAR EndMonth = MAX ( VMT[month] ) "
+     "VAR Period = DATESINPERIOD ( DimDate[date], EndMonth, -12, MONTH ) "
+     "VAR MonthsWithData = CALCULATE ( DISTINCTCOUNT ( VMT[month] ), Period ) "
+     "RETURN IF ( MonthsWithData < 12, BLANK (), CALCULATE ( [Total VMT], Period ) )",
      "#,0.0"),
     ("VMT Prev12M",
-     "CALCULATE ( [Total VMT], DATESINPERIOD ( DimDate[date], MAX ( VMT[month] ), -24, MONTH ) ) - [VMT L12M]",
+     "VAR EndMonth = MAX ( VMT[month] ) "
+     "VAR Period = DATESINPERIOD ( DimDate[date], EndMonth, -24, MONTH ) "
+     "VAR MonthsWithData = CALCULATE ( DISTINCTCOUNT ( VMT[month] ), Period ) "
+     "RETURN IF ( MonthsWithData < 24, BLANK (), "
+     "CALCULATE ( [Total VMT], Period ) - [VMT L12M] )",
      "#,0.0"),
     ("VMT YoY %", "DIVIDE ( [VMT L12M] - [VMT Prev12M], [VMT Prev12M] )", "0.0%"),
     ("VMT YoY Month %", "DIVIDE ( [Total VMT] - [VMT LY], [VMT LY] )", "0.0%"),
@@ -245,6 +255,10 @@ MEASURES = [
     ("States Reporting", "DISTINCTCOUNT ( VMT[state] )", "#,0"),
     ("VMT Seasonality", "DIVIDE ( [Total VMT], CALCULATE ( [Total VMT], ALL ( DimDate ) ) )", "0.0%"),
     ("VMT Share", "DIVIDE ( [Total VMT], CALCULATE ( [Total VMT], ALLSELECTED ( DimState ) ) )", "0.0%"),
+    ("VMT Top10",
+     "VAR StateRank = RANKX ( ALLSELECTED ( DimState[state] ), [Total VMT] ) "
+     "RETURN IF ( StateRank <= 10, [Total VMT] )",
+     "#,0.0"),
     ("Monitoring Stations", "SUM ( VMT[stations] )", "#,0"),
 ]
 
@@ -352,10 +366,17 @@ def build_model() -> None:
     (model_dir / "relationships.tmdl").write_text(
         "relationship " + tag() + "\n"
         "\tfromColumn: VMT.month\n"
-        "\ttoColumn: DimDate.date\n\n"
+        "\ttoColumn: DimDate.date\n"
+        "\tfromCardinality: many\n"
+        "\ttoCardinality: one\n"
+        "\tcrossFilteringBehavior: oneDirection\n"
+        "\n"
         "relationship " + tag() + "\n"
         "\tfromColumn: VMT.state\n"
-        "\ttoColumn: DimState.state\n",
+        "\ttoColumn: DimState.state\n"
+        "\tfromCardinality: many\n"
+        "\ttoCardinality: one\n"
+        "\tcrossFilteringBehavior: oneDirection\n",
         encoding="utf-8",
     )
 

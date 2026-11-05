@@ -1,7 +1,13 @@
-relationship 2fbf270a-ea3a-4479-96ae-cd099688380f
+relationship 41efedb1-07ba-4c6e-a902-b34638ac7eea
 	fromColumn: VMT.month
 	toColumn: DimDate.date
+	fromCardinality: many
+	toCardinality: one
+	crossFilteringBehavior: oneDirection
 
-relationship 7a2a87a8-9262-4c39-9019-6e8ac7ab4b91
+relationship d06e626a-c73e-4e3e-b73e-835e3a5f12ee
 	fromColumn: VMT.state
 	toColumn: DimState.state
+	fromCardinality: many
+	toCardinality: one
+	crossFilteringBehavior: oneDirection
